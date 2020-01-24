@@ -1,0 +1,3 @@
+/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir
