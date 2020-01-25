@@ -44,6 +44,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/wquirrel/Documents/Fractol/."/>
+					<Add directory="/Users/wquirrel/Documents/Fractol/libft"/>
+					<Add directory="/Users/wquirrel/Documents/Fractol/minilibx_macos"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -65,6 +69,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/wquirrel/Documents/Fractol/."/>
+					<Add directory="/Users/wquirrel/Documents/Fractol/libft"/>
+					<Add directory="/Users/wquirrel/Documents/Fractol/minilibx_macos"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -80,7 +88,214 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/fractol.h">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_atoi.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_bzero.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_countwords.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_isalnum.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_isalpha.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_isascii.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_ischar.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_isdigit.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_islower.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_isprint.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_isspace.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_isupper.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_itoa.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_lstadd.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_lstdel.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_lstdelone.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_lstiter.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_lstmap.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_lstnew.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_memalloc.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_memccpy.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_memchr.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_memcmp.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_memcpy.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_memdel.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_memmove.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_memset.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_putchar.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_putchar_fd.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_putendl.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_putendl_fd.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_putnbr.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_putnbr_fd.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_putstr.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_putstr_fd.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_revstr.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strcat.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strchr.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strclr.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strcmp.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strcpy.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strdel.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strdup.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strequ.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_striter.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_striteri.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strjoin.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strlcat.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strlen.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strmap.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strmapi.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strncat.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strncmp.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strncpy.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strnequ.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strnew.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strnlen.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strnstr.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strrchr.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strsplit.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strstr.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strsub.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_strtrim.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_tolower.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_toupper.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_wordlen.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/libft.h">
+			<Option target="Fractol"/>
+		</Unit>
 		<Unit filename="/Users/wquirrel/Documents/Fractol/main.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/minilibx_macos/libmlx.a">
 			<Option target="Fractol"/>
 		</Unit>
 		<Unit filename="/Users/wquirrel/Documents/Fractol/CMakeLists.txt">
