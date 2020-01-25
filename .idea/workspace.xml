@@ -12,27 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df39199a-6c7c-428a-b026-4e185c5ffeef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fractol.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Fractol.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Fractol.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.make" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +26,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1WnfIQE0JJbsWDssbTZRN6oJLHv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -58,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -85,30 +67,46 @@
       <workItem from="1579790212689" duration="453000" />
       <workItem from="1579862955123" duration="1007000" />
       <workItem from="1579870131802" duration="577000" />
-      <workItem from="1579961986425" duration="946000" />
+      <workItem from="1579961986425" duration="1213000" />
     </task>
+    <task id="LOCAL-00001" summary="add new struct">
+      <created>1579963169031</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579963169031</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add new struct" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new struct" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1823" height="382" key="GridCell.Tab.0.bottom" timestamp="1579962476362">
+    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1579963426498">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1823" height="382" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579962476362" />
-    <state width="1823" height="382" key="GridCell.Tab.0.center" timestamp="1579962476361">
+    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1579963426498" />
+    <state width="682" height="382" key="GridCell.Tab.0.bottom" timestamp="1579963276573">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1823" height="382" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579962476361" />
-    <state width="1823" height="382" key="GridCell.Tab.0.left" timestamp="1579962476361">
+    <state width="682" height="382" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579963276573" />
+    <state width="682" height="382" key="GridCell.Tab.0.center" timestamp="1579963276572">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1823" height="382" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579962476361" />
-    <state width="1823" height="382" key="GridCell.Tab.0.right" timestamp="1579962476362">
+    <state width="682" height="382" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579963276572" />
+    <state width="682" height="382" key="GridCell.Tab.0.left" timestamp="1579963276571">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1823" height="382" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579962476362" />
+    <state width="682" height="382" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579963276571" />
+    <state width="682" height="382" key="GridCell.Tab.0.right" timestamp="1579963276572">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="682" height="382" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579963276572" />
     <state width="640" height="197" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1579870025791">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -117,10 +115,14 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="640" height="461" key="ImportCMakeProjectWizard.topPanel/0.23.2560.1337@0.23.2560.1337" timestamp="1579870025790" />
-    <state x="867" y="330" key="SettingsEditor" timestamp="1579870237658">
+    <state x="867" y="330" key="SettingsEditor" timestamp="1579963318761">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="867" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1579870237658" />
+    <state x="867" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1579963318761" />
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1579963384713">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1579963384713" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
