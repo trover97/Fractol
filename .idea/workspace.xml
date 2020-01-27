@@ -39,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -135,10 +135,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="640" height="461" key="ImportCMakeProjectWizard.topPanel/0.23.2560.1337@0.23.2560.1337" timestamp="1579870025790" />
-    <state x="867" y="330" key="SettingsEditor" timestamp="1580132352129">
+    <state x="867" y="330" key="SettingsEditor" timestamp="1580136626938">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="867" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1580132352129" />
+    <state x="867" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1580136626938" />
     <state x="1587" y="430" width="540" height="524" key="StructurePopup" timestamp="1580132283915">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
