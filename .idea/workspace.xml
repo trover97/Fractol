@@ -67,6 +67,7 @@
       <workItem from="1579862955123" duration="1007000" />
       <workItem from="1579870131802" duration="577000" />
       <workItem from="1579961986425" duration="1639000" />
+      <workItem from="1580136585411" duration="355000" />
     </task>
     <task id="LOCAL-00001" summary="add new struct">
       <created>1579963169031</created>
@@ -82,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579963523753</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Delete libft">
+      <created>1580136696416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580136696416</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,10 +115,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Delete libft" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1579963579116">
+    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1580136906353">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1579963579116" />
+    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1580136906353" />
     <state width="1363" height="382" key="GridCell.Tab.0.bottom" timestamp="1580135722451">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -135,18 +143,18 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="640" height="461" key="ImportCMakeProjectWizard.topPanel/0.23.2560.1337@0.23.2560.1337" timestamp="1579870025790" />
-    <state x="867" y="330" key="SettingsEditor" timestamp="1580136626938">
+    <state x="867" y="330" key="SettingsEditor" timestamp="1580136950037">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="867" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1580136626938" />
+    <state x="867" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1580136950037" />
     <state x="1587" y="430" width="540" height="524" key="StructurePopup" timestamp="1580132283915">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1587" y="430" width="540" height="524" key="StructurePopup/0.23.2560.1337@0.23.2560.1337" timestamp="1580132283915" />
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1579963537102">
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1580136921532">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1579963537102" />
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1580136921532" />
     <state x="1522" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1580132232132">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
