@@ -88,6 +88,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/complex.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/draw.c">
+			<Option target="Fractol"/>
+		</Unit>
 		<Unit filename="/Users/wquirrel/Documents/Fractol/fractol.h">
 			<Option target="Fractol"/>
 		</Unit>
@@ -293,6 +299,9 @@
 			<Option target="Fractol"/>
 		</Unit>
 		<Unit filename="/Users/wquirrel/Documents/Fractol/main.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/mandelbrot.c">
 			<Option target="Fractol"/>
 		</Unit>
 		<Unit filename="/Users/wquirrel/Documents/Fractol/minilibx_macos/libmlx.a">

@@ -15,11 +15,21 @@
 
 #include "libft.h"
 #include "mlx.h"
+#include <math.h>
+
+# define WIDTH 1920
+# define HEIGHT 1080
+
+typedef	struct	s_iter
+{
+	int i;
+	int max_i;
+}				t_iter;
 
 typedef	struct	s_complex
 {
-	int re;
-	int im;
+	double re;
+	double im;
 }				t_complex;
 
 typedef struct		s_img
@@ -42,5 +52,9 @@ typedef struct	s_base
 	t_mlx mlx;
 	t_img img;
 }				t_base;
+
+void			mandelbrot(t_base base);
+t_complex		init_complex(double re, double im);
+void			put_pixel(int x, int y, t_iter iter, t_base *base);
 
 #endif

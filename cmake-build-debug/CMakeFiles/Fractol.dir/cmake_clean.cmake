@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Fractol.dir/complex.c.o"
+  "CMakeFiles/Fractol.dir/draw.c.o"
   "CMakeFiles/Fractol.dir/libft/ft_atoi.c.o"
   "CMakeFiles/Fractol.dir/libft/ft_bzero.c.o"
   "CMakeFiles/Fractol.dir/libft/ft_countwords.c.o"
@@ -66,6 +68,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Fractol.dir/libft/ft_toupper.c.o"
   "CMakeFiles/Fractol.dir/libft/ft_wordlen.c.o"
   "CMakeFiles/Fractol.dir/main.c.o"
+  "CMakeFiles/Fractol.dir/mandelbrot.c.o"
   "Fractol"
   "Fractol.pdb"
 )

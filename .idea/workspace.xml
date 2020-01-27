@@ -11,9 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df39199a-6c7c-428a-b026-4e185c5ffeef" name="Default Changelist" comment="">
+    <list default="true" id="df39199a-6c7c-428a-b026-4e185c5ffeef" name="Default Changelist" comment="Delete libft">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.make" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -67,7 +66,7 @@
       <workItem from="1579790212689" duration="453000" />
       <workItem from="1579862955123" duration="1007000" />
       <workItem from="1579870131802" duration="577000" />
-      <workItem from="1579961986425" duration="1213000" />
+      <workItem from="1579961986425" duration="1639000" />
     </task>
     <task id="LOCAL-00001" summary="add new struct">
       <created>1579963169031</created>
@@ -76,37 +75,58 @@
       <option name="project" value="LOCAL" />
       <updated>1579963169031</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Delete libft">
+      <created>1579963523753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579963523753</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new struct" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new struct" />
+    <MESSAGE value="Delete libft" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete libft" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1579963426498">
+    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1579963579116">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1579963426498" />
-    <state width="682" height="382" key="GridCell.Tab.0.bottom" timestamp="1579963276573">
+    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1579963579116" />
+    <state width="1363" height="382" key="GridCell.Tab.0.bottom" timestamp="1580135722451">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="682" height="382" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579963276573" />
-    <state width="682" height="382" key="GridCell.Tab.0.center" timestamp="1579963276572">
+    <state width="1363" height="382" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1580135722451" />
+    <state width="1363" height="382" key="GridCell.Tab.0.center" timestamp="1580135722451">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="682" height="382" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579963276572" />
-    <state width="682" height="382" key="GridCell.Tab.0.left" timestamp="1579963276571">
+    <state width="1363" height="382" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1580135722451" />
+    <state width="1363" height="382" key="GridCell.Tab.0.left" timestamp="1580135722450">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="682" height="382" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579963276571" />
-    <state width="682" height="382" key="GridCell.Tab.0.right" timestamp="1579963276572">
+    <state width="1363" height="382" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1580135722450" />
+    <state width="1363" height="382" key="GridCell.Tab.0.right" timestamp="1580135722451">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="682" height="382" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579963276572" />
+    <state width="1363" height="382" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1580135722451" />
     <state width="640" height="197" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1579870025791">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -115,14 +135,22 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="640" height="461" key="ImportCMakeProjectWizard.topPanel/0.23.2560.1337@0.23.2560.1337" timestamp="1579870025790" />
-    <state x="867" y="330" key="SettingsEditor" timestamp="1579963318761">
+    <state x="867" y="330" key="SettingsEditor" timestamp="1580132352129">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="867" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1579963318761" />
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1579963384713">
+    <state x="867" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1580132352129" />
+    <state x="1587" y="430" width="540" height="524" key="StructurePopup" timestamp="1580132283915">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1579963384713" />
+    <state x="1587" y="430" width="540" height="524" key="StructurePopup/0.23.2560.1337@0.23.2560.1337" timestamp="1580132283915" />
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1579963537102">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1579963537102" />
+    <state x="1522" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1580132232132">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1522" y="328" width="670" height="676" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1580132232132" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

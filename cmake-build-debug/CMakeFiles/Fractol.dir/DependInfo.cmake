@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/wquirrel/Documents/Fractol/complex.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/complex.c.o"
+  "/Users/wquirrel/Documents/Fractol/draw.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/draw.c.o"
   "/Users/wquirrel/Documents/Fractol/libft/ft_atoi.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_atoi.c.o"
   "/Users/wquirrel/Documents/Fractol/libft/ft_bzero.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_bzero.c.o"
   "/Users/wquirrel/Documents/Fractol/libft/ft_countwords.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_countwords.c.o"
@@ -71,6 +73,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/wquirrel/Documents/Fractol/libft/ft_toupper.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_toupper.c.o"
   "/Users/wquirrel/Documents/Fractol/libft/ft_wordlen.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_wordlen.c.o"
   "/Users/wquirrel/Documents/Fractol/main.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o"
+  "/Users/wquirrel/Documents/Fractol/mandelbrot.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/mandelbrot.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

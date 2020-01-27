@@ -12,12 +12,23 @@
 
 #include "fractol.h"
 
+void		init(t_base *base)
+{
+	base->mlx.mlx = mlx_init();
+	base->mlx.win = mlx_new_window(base->mlx.mlx, WIDTH, HEIGHT, "Fractol");
+	base->img.img_ptr = mlx_new_image(base->mlx.mlx, WIDTH, HEIGHT);
+	base->img.data = (int *)mlx_get_data_addr(base->img.img_ptr
+			, &base->img.bpp, &base->img.size_l, &base->img.endian);
+}
 
 int main()
 {
-	t_complex min;
-	t_complex max;
-	t_complex coeff;
+	t_base base;
 
+
+	init(&base);
+	mandelbrot(base);
+
+	mlx_loop(base.mlx.mlx);
 	return 0;
 }

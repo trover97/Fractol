@@ -123,6 +123,60 @@ Fractol/fast:
 	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/build
 .PHONY : Fractol/fast
 
+complex.o: complex.c.o
+
+.PHONY : complex.o
+
+# target to build an object file
+complex.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/complex.c.o
+.PHONY : complex.c.o
+
+complex.i: complex.c.i
+
+.PHONY : complex.i
+
+# target to preprocess a source file
+complex.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/complex.c.i
+.PHONY : complex.c.i
+
+complex.s: complex.c.s
+
+.PHONY : complex.s
+
+# target to generate assembly for a file
+complex.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/complex.c.s
+.PHONY : complex.c.s
+
+draw.o: draw.c.o
+
+.PHONY : draw.o
+
+# target to build an object file
+draw.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/draw.c.o
+.PHONY : draw.c.o
+
+draw.i: draw.c.i
+
+.PHONY : draw.i
+
+# target to preprocess a source file
+draw.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/draw.c.i
+.PHONY : draw.c.i
+
+draw.s: draw.c.s
+
+.PHONY : draw.s
+
+# target to generate assembly for a file
+draw.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/draw.c.s
+.PHONY : draw.c.s
+
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
 .PHONY : libft/ft_atoi.o
@@ -1932,6 +1986,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/main.c.s
 .PHONY : main.c.s
 
+mandelbrot.o: mandelbrot.c.o
+
+.PHONY : mandelbrot.o
+
+# target to build an object file
+mandelbrot.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandelbrot.c.o
+.PHONY : mandelbrot.c.o
+
+mandelbrot.i: mandelbrot.c.i
+
+.PHONY : mandelbrot.i
+
+# target to preprocess a source file
+mandelbrot.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandelbrot.c.i
+.PHONY : mandelbrot.c.i
+
+mandelbrot.s: mandelbrot.c.s
+
+.PHONY : mandelbrot.s
+
+# target to generate assembly for a file
+mandelbrot.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandelbrot.c.s
+.PHONY : mandelbrot.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1941,6 +2022,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Fractol"
+	@echo "... complex.o"
+	@echo "... complex.i"
+	@echo "... complex.s"
+	@echo "... draw.o"
+	@echo "... draw.i"
+	@echo "... draw.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
@@ -2142,6 +2229,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mandelbrot.o"
+	@echo "... mandelbrot.i"
+	@echo "... mandelbrot.s"
 .PHONY : help
 
 
