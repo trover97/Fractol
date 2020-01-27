@@ -23,12 +23,12 @@ void		init(t_base *base)
 
 int main()
 {
-	t_base base;
+	t_base fract;
 
 
-	init(&base);
-	mandelbrot(base);
+	init(&fract);
+	mandelbrot(fract);
 
-	mlx_loop(base.mlx.mlx);
+	mlx_loop(fract.mlx.mlx);
 	return 0;
 }

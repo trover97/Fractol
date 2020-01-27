@@ -53,5 +53,4 @@ void 	mandelbrot(t_base base)
 		y++;
 	}
 	mlx_put_image_to_window(base.mlx.mlx, base.mlx.win, base.img.img_ptr, 0, 0);
-
 }

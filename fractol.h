@@ -17,8 +17,8 @@
 #include "mlx.h"
 #include <math.h>
 
-# define WIDTH 1920
-# define HEIGHT 1080
+# define WIDTH 1281
+# define HEIGHT 1281
 
 typedef	struct	s_iter
 {
