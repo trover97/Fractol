@@ -91,6 +91,9 @@
 		<Unit filename="/Users/wquirrel/Documents/Fractol/complex.c">
 			<Option target="Fractol"/>
 		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/control.c">
+			<Option target="Fractol"/>
+		</Unit>
 		<Unit filename="/Users/wquirrel/Documents/Fractol/draw.c">
 			<Option target="Fractol"/>
 		</Unit>

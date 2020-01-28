@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Fractol.dir/complex.c.o"
+  "CMakeFiles/Fractol.dir/control.c.o"
   "CMakeFiles/Fractol.dir/draw.c.o"
   "CMakeFiles/Fractol.dir/libft/ft_atoi.c.o"
   "CMakeFiles/Fractol.dir/libft/ft_bzero.c.o"

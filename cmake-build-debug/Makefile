@@ -150,6 +150,33 @@ complex.c.s:
 	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/complex.c.s
 .PHONY : complex.c.s
 
+control.o: control.c.o
+
+.PHONY : control.o
+
+# target to build an object file
+control.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/control.c.o
+.PHONY : control.c.o
+
+control.i: control.c.i
+
+.PHONY : control.i
+
+# target to preprocess a source file
+control.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/control.c.i
+.PHONY : control.c.i
+
+control.s: control.c.s
+
+.PHONY : control.s
+
+# target to generate assembly for a file
+control.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/control.c.s
+.PHONY : control.c.s
+
 draw.o: draw.c.o
 
 .PHONY : draw.o
@@ -2025,6 +2052,9 @@ help:
 	@echo "... complex.o"
 	@echo "... complex.i"
 	@echo "... complex.s"
+	@echo "... control.o"
+	@echo "... control.i"
+	@echo "... control.s"
 	@echo "... draw.o"
 	@echo "... draw.i"
 	@echo "... draw.s"

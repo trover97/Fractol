@@ -6,6 +6,11 @@ CMakeFiles/Fractol.dir/complex.c.o
  ../minilibx_macos/mlx.h
  /Users/wquirrel/Documents/Fractol/complex.c
  /Users/wquirrel/Documents/Fractol/fractol.h
+CMakeFiles/Fractol.dir/control.c.o
+ ../libft/libft.h
+ ../minilibx_macos/mlx.h
+ /Users/wquirrel/Documents/Fractol/control.c
+ /Users/wquirrel/Documents/Fractol/fractol.h
 CMakeFiles/Fractol.dir/draw.c.o
  ../libft/libft.h
  ../minilibx_macos/mlx.h

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/wquirrel/Documents/Fractol/complex.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/complex.c.o"
+  "/Users/wquirrel/Documents/Fractol/control.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/control.c.o"
   "/Users/wquirrel/Documents/Fractol/draw.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/draw.c.o"
   "/Users/wquirrel/Documents/Fractol/libft/ft_atoi.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_atoi.c.o"
   "/Users/wquirrel/Documents/Fractol/libft/ft_bzero.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_bzero.c.o"

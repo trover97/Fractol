@@ -12,45 +12,45 @@
 
 #include "fractol.h"
 
-void 	mandelbrot(t_base base)
+void 	mandelbrot(int x, int y, t_base *fract)
 {
-	int x;
-	int y;
-	t_iter iter;
+//	int x;
+//	int y;
+//	t_iter iter;
 	t_complex z;
-	t_complex min;
-	t_complex max;
+//	t_complex min;
+//	t_complex max;
 	t_complex factor;
 	t_complex c;
 
-	min = init_complex(-2.0, -2.0);
-	max.re = 2.0;
-	max.im = min.im + (max.re - min.re) * HEIGHT / WIDTH;
-	factor = init_complex((max.re - min.re) / (WIDTH - 1)
-			, (max.im - min .im) / (HEIGHT - 1));
+	fract->min = init_complex(-2.0 + fract->shift_x, -2.0 + fract->shift_y);
+	fract->max.re = 2.0 + fract->shift_x;
+	fract->max.im = fract->min.im + (fract->max.re - fract->min.re) * HEIGHT / WIDTH + fract->shift_y;
+	factor = init_complex((fract->max.re - fract->min.re) / (WIDTH - 1)
+			, (fract->max.im - fract->min .im) / (HEIGHT - 1));
 
-	iter.max_i = 50;
+	fract->iter.max_i = 50;
 
-	y = 0;
-	while (y < HEIGHT)
-	{
-		c.im = max.im - y * factor.im;
-		x = 0;
-		while (x < WIDTH)
-		{
-			c.re = min.re + x * factor.re;
+//	y = 0;
+//	while (y < HEIGHT)
+//	{
+		c.im = fract->max.im - y * factor.im;
+//		x = 0;
+//		while (x < WIDTH)
+//		{
+			c.re = fract->min.re + x * factor.re;
 			z = init_complex(c.re, c.im);
-			iter.i = 0;
+			fract->iter.i = 0;
 			while (pow(z.re, 2.0) + pow(z.im, 2.0) <= 4
-				   && iter.i < iter.max_i)
+				   && fract->iter.i < fract->iter.max_i)
 			{
-				z = init_complex(pow(z.re, 2.0) - pow(z.im, 2.0) + c.re, 2.0 * z.re * z.im + c.im);
-				iter.i++;
+				z = init_complex(pow(z.re, 2.0) - pow(z.im, 2.0) + c.re
+						, 2.0 * z.re * z.im + c.im);
+				fract->iter.i++;
 			}
-			put_pixel(x, y, iter, &base);
-			x++;
-		}
-		y++;
-	}
-	mlx_put_image_to_window(base.mlx.mlx, base.mlx.win, base.img.img_ptr, 0, 0);
+			put_pixel(x, y, fract->iter, fract);
+//			x++;
+//		}
+//		y++;
+//	}
 }
