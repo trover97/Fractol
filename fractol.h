@@ -92,8 +92,9 @@ typedef struct	s_base
 	t_iter iter;
 	t_complex min;
 	t_complex max;
-	double zoom_re;
-	double zoom_im;
+	double zoom;
+//	double zoom_re;
+//	double zoom_im;
 	double	shift_y;
 	double	shift_x;
 }				t_base;
