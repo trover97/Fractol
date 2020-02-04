@@ -1,4 +1,4 @@
-"/Volumes/Storage/cache/wquirrel/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/wquirrel/Documents/Fractol
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/wquirrel/Documents/Fractol
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/wquirrel/Documents/Fractol/cmake-build-debug

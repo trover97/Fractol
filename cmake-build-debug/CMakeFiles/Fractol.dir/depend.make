@@ -188,8 +188,13 @@ CMakeFiles/Fractol.dir/main.c.o: ../minilibx_macos/mlx.h
 CMakeFiles/Fractol.dir/main.c.o: ../fractol.h
 CMakeFiles/Fractol.dir/main.c.o: ../main.c
 
-CMakeFiles/Fractol.dir/mandelbrot.c.o: ../libft/libft.h
-CMakeFiles/Fractol.dir/mandelbrot.c.o: ../minilibx_macos/mlx.h
-CMakeFiles/Fractol.dir/mandelbrot.c.o: ../fractol.h
-CMakeFiles/Fractol.dir/mandelbrot.c.o: ../mandelbrot.c
+CMakeFiles/Fractol.dir/mandel_julia.c.o: ../libft/libft.h
+CMakeFiles/Fractol.dir/mandel_julia.c.o: ../minilibx_macos/mlx.h
+CMakeFiles/Fractol.dir/mandel_julia.c.o: ../fractol.h
+CMakeFiles/Fractol.dir/mandel_julia.c.o: ../mandel_julia.c
+
+CMakeFiles/Fractol.dir/multithreading.c.o: ../libft/libft.h
+CMakeFiles/Fractol.dir/multithreading.c.o: ../minilibx_macos/mlx.h
+CMakeFiles/Fractol.dir/multithreading.c.o: ../fractol.h
+CMakeFiles/Fractol.dir/multithreading.c.o: ../multithreading.c
 

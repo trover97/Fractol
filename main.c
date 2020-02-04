@@ -67,6 +67,7 @@ void		init(t_base *fract)
 	fract->min = init_complex(-2.0, -2.0);
 	fract->max.re = 2.0;
 	fract->max.im = fract->min.im + (fract->max.re - fract->min.re) * HEIGHT / WIDTH;
+	fract->iter.i = 0;
 }
 
 int main()

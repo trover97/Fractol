@@ -16,14 +16,6 @@ string.h
 
 ../minilibx_macos/mlx.h
 
-/Users/wquirrel/Documents/Fractol/control.c
-fractol.h
-/Users/wquirrel/Documents/Fractol/fractol.h
-
-/Users/wquirrel/Documents/Fractol/draw.c
-fractol.h
-/Users/wquirrel/Documents/Fractol/fractol.h
-
 /Users/wquirrel/Documents/Fractol/fractol.h
 libft.h
 /Users/wquirrel/Documents/Fractol/libft.h
@@ -31,4 +23,10 @@ mlx.h
 /Users/wquirrel/Documents/Fractol/mlx.h
 math.h
 -
+pthread.h
+-
+
+/Users/wquirrel/Documents/Fractol/mandel_julia.c
+fractol.h
+/Users/wquirrel/Documents/Fractol/fractol.h
 

@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Volumes/Storage/cache/wquirrel/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = "/Volumes/Storage/cache/wquirrel/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/wquirrel/Documents/Fractol/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Volumes/Storage/cache/wquirrel/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Volumes/Storage/cache/wquirrel/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -2013,32 +2013,59 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/main.c.s
 .PHONY : main.c.s
 
-mandelbrot.o: mandelbrot.c.o
+mandel_julia.o: mandel_julia.c.o
 
-.PHONY : mandelbrot.o
+.PHONY : mandel_julia.o
 
 # target to build an object file
-mandelbrot.c.o:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandelbrot.c.o
-.PHONY : mandelbrot.c.o
+mandel_julia.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandel_julia.c.o
+.PHONY : mandel_julia.c.o
 
-mandelbrot.i: mandelbrot.c.i
+mandel_julia.i: mandel_julia.c.i
 
-.PHONY : mandelbrot.i
+.PHONY : mandel_julia.i
 
 # target to preprocess a source file
-mandelbrot.c.i:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandelbrot.c.i
-.PHONY : mandelbrot.c.i
+mandel_julia.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandel_julia.c.i
+.PHONY : mandel_julia.c.i
 
-mandelbrot.s: mandelbrot.c.s
+mandel_julia.s: mandel_julia.c.s
 
-.PHONY : mandelbrot.s
+.PHONY : mandel_julia.s
 
 # target to generate assembly for a file
-mandelbrot.c.s:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandelbrot.c.s
-.PHONY : mandelbrot.c.s
+mandel_julia.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandel_julia.c.s
+.PHONY : mandel_julia.c.s
+
+multithreading.o: multithreading.c.o
+
+.PHONY : multithreading.o
+
+# target to build an object file
+multithreading.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/multithreading.c.o
+.PHONY : multithreading.c.o
+
+multithreading.i: multithreading.c.i
+
+.PHONY : multithreading.i
+
+# target to preprocess a source file
+multithreading.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/multithreading.c.i
+.PHONY : multithreading.c.i
+
+multithreading.s: multithreading.c.s
+
+.PHONY : multithreading.s
+
+# target to generate assembly for a file
+multithreading.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/multithreading.c.s
+.PHONY : multithreading.c.s
 
 # Help Target
 help:
@@ -2259,9 +2286,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mandelbrot.o"
-	@echo "... mandelbrot.i"
-	@echo "... mandelbrot.s"
+	@echo "... mandel_julia.o"
+	@echo "... mandel_julia.i"
+	@echo "... mandel_julia.s"
+	@echo "... multithreading.o"
+	@echo "... multithreading.i"
+	@echo "... multithreading.s"
 .PHONY : help
 
 

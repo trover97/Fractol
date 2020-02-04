@@ -16,6 +16,7 @@
 # include "libft.h"
 # include "mlx.h"
 # include <math.h>
+# include <pthread.h>
 
 /*
 ** Window
@@ -105,6 +106,7 @@ t_complex		init_complex(double re, double im);
 int				key_press(int keycode, t_base *fract);
 void			mandelbrot(int x, int y, t_base *fract);
 void			put_pixel(int x, int y, t_iter iter, t_base *base);
+void			julia(int x, int y, t_base *fract);
 void			zoom(int button ,int x, int y, t_base *fract);
 
 #endif

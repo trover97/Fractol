@@ -69,7 +69,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Fractol.dir/libft/ft_toupper.c.o"
   "CMakeFiles/Fractol.dir/libft/ft_wordlen.c.o"
   "CMakeFiles/Fractol.dir/main.c.o"
-  "CMakeFiles/Fractol.dir/mandelbrot.c.o"
+  "CMakeFiles/Fractol.dir/mandel_julia.c.o"
+  "CMakeFiles/Fractol.dir/multithreading.c.o"
   "Fractol"
   "Fractol.pdb"
 )

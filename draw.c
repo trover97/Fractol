@@ -54,7 +54,8 @@ void		draw(t_base *fract)
 		x = 0;
 		while (x < WIDTH)
 		{
-			mandelbrot(x, y, fract);
+//			mandelbrot(x, y, fract);
+			julia(x, y, fract);
 			x++;
 		}
 		y++;

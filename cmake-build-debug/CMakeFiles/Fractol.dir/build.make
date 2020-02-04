@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Volumes/Storage/cache/wquirrel/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = "/Volumes/Storage/cache/wquirrel/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -928,18 +928,18 @@ CMakeFiles/Fractol.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fractol.dir/main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wquirrel/Documents/Fractol/main.c -o CMakeFiles/Fractol.dir/main.c.s
 
-CMakeFiles/Fractol.dir/mandelbrot.c.o: CMakeFiles/Fractol.dir/flags.make
-CMakeFiles/Fractol.dir/mandelbrot.c.o: ../mandelbrot.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Fractol.dir/mandelbrot.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fractol.dir/mandelbrot.c.o   -c /Users/wquirrel/Documents/Fractol/mandelbrot.c
+CMakeFiles/Fractol.dir/mandel_julia.c.o: CMakeFiles/Fractol.dir/flags.make
+CMakeFiles/Fractol.dir/mandel_julia.c.o: ../mandel_julia.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Fractol.dir/mandel_julia.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fractol.dir/mandel_julia.c.o   -c /Users/wquirrel/Documents/Fractol/mandel_julia.c
 
-CMakeFiles/Fractol.dir/mandelbrot.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fractol.dir/mandelbrot.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wquirrel/Documents/Fractol/mandelbrot.c > CMakeFiles/Fractol.dir/mandelbrot.c.i
+CMakeFiles/Fractol.dir/mandel_julia.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fractol.dir/mandel_julia.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wquirrel/Documents/Fractol/mandel_julia.c > CMakeFiles/Fractol.dir/mandel_julia.c.i
 
-CMakeFiles/Fractol.dir/mandelbrot.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fractol.dir/mandelbrot.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wquirrel/Documents/Fractol/mandelbrot.c -o CMakeFiles/Fractol.dir/mandelbrot.c.s
+CMakeFiles/Fractol.dir/mandel_julia.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fractol.dir/mandel_julia.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wquirrel/Documents/Fractol/mandel_julia.c -o CMakeFiles/Fractol.dir/mandel_julia.c.s
 
 CMakeFiles/Fractol.dir/complex.c.o: CMakeFiles/Fractol.dir/flags.make
 CMakeFiles/Fractol.dir/complex.c.o: ../complex.c
@@ -979,6 +979,19 @@ CMakeFiles/Fractol.dir/control.c.i: cmake_force
 CMakeFiles/Fractol.dir/control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fractol.dir/control.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wquirrel/Documents/Fractol/control.c -o CMakeFiles/Fractol.dir/control.c.s
+
+CMakeFiles/Fractol.dir/multithreading.c.o: CMakeFiles/Fractol.dir/flags.make
+CMakeFiles/Fractol.dir/multithreading.c.o: ../multithreading.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/Fractol.dir/multithreading.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fractol.dir/multithreading.c.o   -c /Users/wquirrel/Documents/Fractol/multithreading.c
+
+CMakeFiles/Fractol.dir/multithreading.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fractol.dir/multithreading.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wquirrel/Documents/Fractol/multithreading.c > CMakeFiles/Fractol.dir/multithreading.c.i
+
+CMakeFiles/Fractol.dir/multithreading.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fractol.dir/multithreading.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wquirrel/Documents/Fractol/multithreading.c -o CMakeFiles/Fractol.dir/multithreading.c.s
 
 # Object files for target Fractol
 Fractol_OBJECTS = \
@@ -1049,10 +1062,11 @@ Fractol_OBJECTS = \
 "CMakeFiles/Fractol.dir/libft/ft_toupper.c.o" \
 "CMakeFiles/Fractol.dir/libft/ft_wordlen.c.o" \
 "CMakeFiles/Fractol.dir/main.c.o" \
-"CMakeFiles/Fractol.dir/mandelbrot.c.o" \
+"CMakeFiles/Fractol.dir/mandel_julia.c.o" \
 "CMakeFiles/Fractol.dir/complex.c.o" \
 "CMakeFiles/Fractol.dir/draw.c.o" \
-"CMakeFiles/Fractol.dir/control.c.o"
+"CMakeFiles/Fractol.dir/control.c.o" \
+"CMakeFiles/Fractol.dir/multithreading.c.o"
 
 # External object files for target Fractol
 Fractol_EXTERNAL_OBJECTS =
@@ -1124,13 +1138,14 @@ Fractol: CMakeFiles/Fractol.dir/libft/ft_tolower.c.o
 Fractol: CMakeFiles/Fractol.dir/libft/ft_toupper.c.o
 Fractol: CMakeFiles/Fractol.dir/libft/ft_wordlen.c.o
 Fractol: CMakeFiles/Fractol.dir/main.c.o
-Fractol: CMakeFiles/Fractol.dir/mandelbrot.c.o
+Fractol: CMakeFiles/Fractol.dir/mandel_julia.c.o
 Fractol: CMakeFiles/Fractol.dir/complex.c.o
 Fractol: CMakeFiles/Fractol.dir/draw.c.o
 Fractol: CMakeFiles/Fractol.dir/control.c.o
+Fractol: CMakeFiles/Fractol.dir/multithreading.c.o
 Fractol: CMakeFiles/Fractol.dir/build.make
 Fractol: CMakeFiles/Fractol.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking C executable Fractol"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking C executable Fractol"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fractol.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
