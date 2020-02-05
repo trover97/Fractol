@@ -22,8 +22,8 @@
 ** Window
 */
 
-# define WIDTH 1281
-# define HEIGHT 1281
+# define WIDTH 1000
+# define HEIGHT 1000
 
 /*
 ** Colors
@@ -54,9 +54,18 @@
 # define MOUSE_SCROLL_DOWN	5
 
 /*
+** Threads
+*/
+
+#define ERROR_CREATE_THREAD -11
+#define ERROR_JOIN_THREAD   -12
+#define SUCCESS               0
+
+/*
 ** Other
 */
 
+# define THREADS 10
 # define SHIFT 0.01
 
 typedef	struct	s_iter
@@ -94,6 +103,7 @@ typedef struct	s_base
 	t_complex min;
 	t_complex max;
 	double zoom;
+	t_complex k;
 //	double zoom_re;
 //	double zoom_im;
 	double	shift_y;
@@ -104,7 +114,9 @@ void			draw(t_base *fract);
 void			img_new(t_base *fract);
 t_complex		init_complex(double re, double im);
 int				key_press(int keycode, t_base *fract);
+int				julia_motion(int x, int y, t_base *fract);
 void			mandelbrot(int x, int y, t_base *fract);
+void			*part_of_fract(void *param);
 void			put_pixel(int x, int y, t_iter iter, t_base *base);
 void			julia(int x, int y, t_base *fract);
 void			zoom(int button ,int x, int y, t_base *fract);

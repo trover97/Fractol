@@ -33,6 +33,8 @@ void	zoom(int button ,int x, int y, t_base *fract)
 			zoom = 1.2;
 		else if(button == MOUSE_SCROLL_UP)
 			zoom = 0.8;
+		else
+			return ;
 		fract->min.re = inter(mouse.re, fract->min.re, zoom);
 		fract->min.im = inter(mouse.im, fract->min.im, zoom);
 		fract->max.re = inter(mouse.re, fract->max.re, zoom);
@@ -68,6 +70,7 @@ void		init(t_base *fract)
 	fract->max.re = 2.0;
 	fract->max.im = fract->min.im + (fract->max.re - fract->min.re) * HEIGHT / WIDTH;
 	fract->iter.i = 0;
+	fract->k = init_complex(-0.4, 0.6);
 }
 
 int main()
@@ -80,6 +83,7 @@ int main()
 	draw(&fract);
 
 	mlx_hook(fract.mlx.win, 2, 0, key_press, &fract);
+	mlx_mouse_hook(fract.mlx.win, julia_motion, &fract);
 	mlx_mouse_hook(fract.mlx.win, zoom, &fract);
 //	mlx_hook(fract.mlx.win, 5, 0, mouse_release, &fract);
 //	mlx_hook(fract.mlx.win, 6, 0, mouse_move, &fract);

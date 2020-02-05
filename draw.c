@@ -12,6 +12,11 @@
 
 #include "fractol.h"
 
+void	*part_of_fract(void *param)
+{
+
+}
+
 int		color(int iteration, int max_iteration)
 {
 	double t;
@@ -54,8 +59,8 @@ void		draw(t_base *fract)
 		x = 0;
 		while (x < WIDTH)
 		{
-//			mandelbrot(x, y, fract);
-			julia(x, y, fract);
+			mandelbrot(x, y, fract);
+//			julia(x, y, fract);
 			x++;
 		}
 		y++;
