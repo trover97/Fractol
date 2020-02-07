@@ -11,15 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df39199a-6c7c-428a-b026-4e185c5ffeef" name="Default Changelist" comment="Julia(without mouse) + begin threads">
+    <list default="true" id="df39199a-6c7c-428a-b026-4e185c5ffeef" name="Default Changelist" comment="Julia(doesnt work)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/complex.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/complex.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/draw.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/draw.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Fractol" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Fractol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/control.c" beforeDir="false" afterPath="$PROJECT_DIR$/control.c" afterDir="false" />
@@ -96,8 +92,7 @@
       <workItem from="1580741793869" duration="1017000" />
       <workItem from="1580818969882" duration="2878000" />
       <workItem from="1580841616705" duration="274000" />
-      <workItem from="1580893340802" duration="12413000" />
-      <workItem from="1581068208068" duration="7128000" />
+      <workItem from="1580893340802" duration="9906000" />
     </task>
     <task id="LOCAL-00001" summary="add new struct">
       <created>1579963169031</created>
@@ -141,14 +136,7 @@
       <option name="project" value="LOCAL" />
       <updated>1580842507965</updated>
     </task>
-    <task id="LOCAL-00007" summary="Julia(without mouse) + begin threads">
-      <created>1580911376392</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1580911376392</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,50 +161,53 @@
     <MESSAGE value="Without zoom" />
     <MESSAGE value="Zoom added" />
     <MESSAGE value="Julia(doesnt work)" />
-    <MESSAGE value="Julia(without mouse) + begin threads" />
-    <option name="LAST_COMMIT_MESSAGE" value="Julia(without mouse) + begin threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="Julia(doesnt work)" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581096691693">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581096691693" />
     <state x="1243" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580204710960">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1243" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1580204710960" />
-    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1580918857892">
+    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1581100740152">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1580918857892" />
-    <state width="1267" height="381" key="GridCell.Tab.0.bottom" timestamp="1581080478712">
+    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1581100740152" />
+    <state width="633" height="381" key="GridCell.Tab.0.bottom" timestamp="1581100767736">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1267" height="381" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581080478712" />
-    <state width="1267" height="381" key="GridCell.Tab.0.center" timestamp="1581080478711">
+    <state width="633" height="381" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581100767736" />
+    <state width="633" height="381" key="GridCell.Tab.0.center" timestamp="1581100767735">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1267" height="381" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581080478711" />
-    <state width="1267" height="381" key="GridCell.Tab.0.left" timestamp="1581080478710">
+    <state width="633" height="381" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581100767735" />
+    <state width="633" height="381" key="GridCell.Tab.0.left" timestamp="1581100767735">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1267" height="381" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581080478710" />
-    <state width="1267" height="381" key="GridCell.Tab.0.right" timestamp="1581080478711">
+    <state width="633" height="381" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581100767735" />
+    <state width="633" height="381" key="GridCell.Tab.0.right" timestamp="1581100767736">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1267" height="381" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581080478711" />
-    <state width="1267" height="469" key="GridCell.Tab.1.bottom" timestamp="1581080077868">
+    <state width="633" height="381" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581100767736" />
+    <state width="633" height="469" key="GridCell.Tab.1.bottom" timestamp="1581095526896">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1267" height="469" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581080077868" />
-    <state width="1267" height="469" key="GridCell.Tab.1.center" timestamp="1581080077868">
+    <state width="633" height="469" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581095526896" />
+    <state width="633" height="469" key="GridCell.Tab.1.center" timestamp="1581095526895">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1267" height="469" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581080077868" />
-    <state width="1267" height="469" key="GridCell.Tab.1.left" timestamp="1581080077867">
+    <state width="633" height="469" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581095526895" />
+    <state width="633" height="469" key="GridCell.Tab.1.left" timestamp="1581095526895">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1267" height="469" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581080077867" />
-    <state width="1267" height="469" key="GridCell.Tab.1.right" timestamp="1581080077868">
+    <state width="633" height="469" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581095526895" />
+    <state width="633" height="469" key="GridCell.Tab.1.right" timestamp="1581095526896">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1267" height="469" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581080077868" />
+    <state width="633" height="469" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581095526896" />
     <state width="640" height="197" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1579870025791">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -225,6 +216,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="640" height="461" key="ImportCMakeProjectWizard.topPanel/0.23.2560.1337@0.23.2560.1337" timestamp="1579870025790" />
+    <state x="1619" y="414" key="MultipleFileMergeDialog" timestamp="1581100918036">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1619" y="414" key="MultipleFileMergeDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581100918036" />
     <state x="867" y="330" key="SettingsEditor" timestamp="1580214817070">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -233,18 +228,26 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1587" y="430" width="540" height="524" key="StructurePopup/0.23.2560.1337@0.23.2560.1337" timestamp="1580132283915" />
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1581080635323">
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1581100931511">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1581080635323" />
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1581100931511" />
     <state x="936" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1580291993160">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="936" y="525" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1580291993160" />
-    <state x="1522" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1581072956713">
+    <state x="206" y="434" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581095435814">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1522" y="328" width="670" height="676" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1581072956713" />
+    <state x="206" y="434" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.2560.1337@0.23.2560.1337" timestamp="1581095435814" />
+    <state x="1660" y="411" key="git4idea.branch.GitSmartOperationDialog" timestamp="1581100857173">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1660" y="411" key="git4idea.branch.GitSmartOperationDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581100857173" />
+    <state x="1522" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1581098298929">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1522" y="328" width="670" height="676" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1581098298929" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

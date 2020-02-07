@@ -37,8 +37,6 @@ void 	mandelbrot(int x, int y, t_base *fract)
 	c.re = fract->min.re + x * factor.re;
 	z = init_complex(c.re, c.im);
 	fract->iter.i = 0;
-//	while (pow(z.re, 2.0) + pow(z.im, 2.0) <= 4
-//		   && fract->iter.i < fract->iter.max_i)
 	while (z.re * z.re + z.im * z.im <= 4
 		   && fract->iter.i < fract->iter.max_i)
 	{
@@ -46,7 +44,7 @@ void 	mandelbrot(int x, int y, t_base *fract)
 				, 2.0 * z.re * z.im + c.im);
 		fract->iter.i++;
 	}
-	put_pixel(x, y, fract->iter, fract);
+	put_dot(x, y, fract->iter, fract);
 }
 
 void julia(int x, int y, t_base *fract)
@@ -65,15 +63,15 @@ void julia(int x, int y, t_base *fract)
 	c.re = fract->min.re + x * factor.re;
 	z = init_complex(c.re, c.im);
 	fract->iter.i = 0;
-	while (pow(z.re, 2.0) + pow(z.im, 2.0) <= 4
+	while (z.re * z.re + z.im * z.im <= 4
 		   && fract->iter.i < fract->iter.max_i)
 	{
 		z = init_complex(
-				pow(z.re, 2.0) - pow(z.im, 2.0) + fract->k.re,
+				z.re * z.re - z.im * z.im + fract->k.re,
 				2.0 * z.re * z.im + fract->k.im);
 		fract->iter.i++;
 	}
-	put_pixel(x, y, fract->iter, fract);
+	put_dot(x, y, fract->iter, fract);
 }
 
 /*
@@ -105,5 +103,5 @@ void julia(int x, int y, t_base *fract)
 				2.0 * z.re * z.im + fract->k.im);
 		i++;
 	}
-	put_pixel(x, y, fract->iter, fract);
+	put_dot(x, y, fract->iter, fract);
 }*/

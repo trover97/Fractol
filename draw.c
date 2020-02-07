@@ -28,11 +28,11 @@ int		color(int iteration, int max_iteration)
 }
 
 
-void		put_pixel(int x, int y, t_iter iter, t_base *base)
+void		put_dot(int x, int y, t_iter iter, t_base *base)
 {
 	int i;
 
-	if(x < 0 || x >= WIDTH || y < 0 || y >= HEIGHT)
+	if (x < 0 || x >= WIDTH || y < 0 || y >= HEIGHT)
 		return ;
 	i = y * WIDTH + x;
 	base->img.data[i] = color(iter.i, iter.max_i);

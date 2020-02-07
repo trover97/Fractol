@@ -39,7 +39,7 @@ void	zoom(int button ,int x, int y, t_base *fract)
 		fract->min.im = inter(mouse.im, fract->min.im, zoom);
 		fract->max.re = inter(mouse.re, fract->max.re, zoom);
 		fract->max.im = inter(mouse.im, fract->max.im, zoom);
-		draw(fract);
+		multip(fract);
 }
 
 void	img_new(t_base *fract)
@@ -80,7 +80,7 @@ int main()
 
 	init(&fract);
 //	mandelbrot(&fract);
-	draw(&fract);
+//	draw(&fract);
 	multip(&fract);
 
 	mlx_hook(fract.mlx.win, 2, 0, key_press, &fract);
