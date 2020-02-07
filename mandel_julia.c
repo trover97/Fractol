@@ -37,10 +37,12 @@ void 	mandelbrot(int x, int y, t_base *fract)
 	c.re = fract->min.re + x * factor.re;
 	z = init_complex(c.re, c.im);
 	fract->iter.i = 0;
-	while (pow(z.re, 2.0) + pow(z.im, 2.0) <= 4
+//	while (pow(z.re, 2.0) + pow(z.im, 2.0) <= 4
+//		   && fract->iter.i < fract->iter.max_i)
+	while (z.re * z.re + z.im * z.im <= 4
 		   && fract->iter.i < fract->iter.max_i)
 	{
-		z = init_complex(pow(z.re, 2.0) - pow(z.im, 2.0) + c.re
+		z = init_complex(z.re * z.re - z.im * z.im + c.re
 				, 2.0 * z.re * z.im + c.im);
 		fract->iter.i++;
 	}

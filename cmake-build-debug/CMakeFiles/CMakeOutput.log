@@ -290,3 +290,52 @@ Parsed CXX implicit link information from above output:
   implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d121c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d121c.dir/build.make CMakeFiles/cmTC_d121c.dir/build
+Building C object CMakeFiles/cmTC_d121c.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -lmlx -framework OpenGL -framework AppKit    -o CMakeFiles/cmTC_d121c.dir/CheckIncludeFile.c.o   -c /Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+clang: warning: -lmlx: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -framework OpenGL: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -framework AppKit: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_d121c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d121c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -lmlx -framework OpenGL -framework AppKit  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d121c.dir/CheckIncludeFile.c.o  -o cmTC_d121c 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bbe57/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bbe57.dir/build.make CMakeFiles/cmTC_bbe57.dir/build
+Building C object CMakeFiles/cmTC_bbe57.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -lmlx -framework OpenGL -framework AppKit -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_bbe57.dir/src.c.o   -c /Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: warning: -lmlx: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -framework OpenGL: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -framework AppKit: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_bbe57
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbe57.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -lmlx -framework OpenGL -framework AppKit -DCMAKE_HAVE_LIBC_PTHREAD -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bbe57.dir/src.c.o  -o cmTC_bbe57 
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

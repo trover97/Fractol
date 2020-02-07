@@ -12,11 +12,6 @@
 
 #include "fractol.h"
 
-void	*part_of_fract(void *param)
-{
-
-}
-
 int		color(int iteration, int max_iteration)
 {
 	double t;

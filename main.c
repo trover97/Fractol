@@ -81,6 +81,7 @@ int main()
 	init(&fract);
 //	mandelbrot(&fract);
 	draw(&fract);
+	multip(&fract);
 
 	mlx_hook(fract.mlx.win, 2, 0, key_press, &fract);
 	mlx_mouse_hook(fract.mlx.win, julia_motion, &fract);

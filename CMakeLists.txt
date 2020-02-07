@@ -7,7 +7,10 @@ include_directories(.)
 include_directories(libft)
 include_directories(minilibx_macos)
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -lmlx -framework OpenGL -framework AppKit")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -lmlx -framework OpenGL -framework AppKit -pthread")
+
+#set(GCC_COVERAGE_COMPILE_FLAGS "-pthread")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}" )
 
 add_executable(Fractol
     libft/ft_atoi.c
