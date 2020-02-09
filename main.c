@@ -84,7 +84,7 @@ int main()
 	multip(&fract);
 
 	mlx_hook(fract.mlx.win, 2, 0, key_press, &fract);
-	mlx_mouse_hook(fract.mlx.win, julia_motion, &fract);
+//	mlx_mouse_hook(fract.mlx.win, julia_motion, &fract);
 	mlx_mouse_hook(fract.mlx.win, zoom, &fract);
 //	mlx_hook(fract.mlx.win, 5, 0, mouse_release, &fract);
 //	mlx_hook(fract.mlx.win, 6, 0, mouse_move, &fract);

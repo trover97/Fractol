@@ -70,7 +70,6 @@
 
 typedef struct	s_potok
 {
-	int id;
 	int s_line;
 	int f_line;
 }				t_potok;
@@ -112,22 +111,15 @@ typedef struct	s_base
 	int s_line;
 	int f_line;
 	double zoom;
-	int s_line;
-	int f_line;
+//	int s_line;
+//	int f_line;
 	t_complex k;
 //	double zoom_re;
 //	double zoom_im;
 	double	shift_y;
 	double	shift_x;
+	t_potok thr;
 }				t_base;
-
-typedef struct	s_potok
-{
-	int s_line;
-	int f_line;
-	t_base *fract;
-	pthread_t tid;
-}				t_potok;
 
 void			draw(t_base *fract);
 void			img_new(t_base *fract);

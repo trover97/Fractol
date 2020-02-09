@@ -26,6 +26,6 @@ int key_press(int keycode, t_base *fract)
 		fract->shift_x += SHIFT;
 	else if(keycode == ARROW_RIGHT)
 		fract->shift_x -= SHIFT;
-	multip(fract);
+//	multip(fract);
 //	draw(fract);
 }

@@ -19,7 +19,7 @@ int		color(int iteration, int max_iteration)
 	int green;
 	int blue;
 
-	t = (double) iteration / (double) max_iteration;
+	t = (double) iteration / max_iteration;
 
 	red = (int) (9 * (1 - t) * pow(t, 3) * 255);
 	green = (int) (15 * pow((1 - t), 2) * pow(t, 2) * 255);
@@ -40,6 +40,7 @@ void		put_dot(int x, int y, t_iter iter, t_base *base)
 	base->img.data[++i] = color(iter.i, iter.max_i) >> 16;
 }
 
+/*
 void		draw(t_base *fract)
 {
 	int y;
@@ -61,4 +62,4 @@ void		draw(t_base *fract)
 		y++;
 	}
 	mlx_put_image_to_window(fract->mlx.mlx, fract->mlx.win, fract->img.img_ptr, 0, 0);
-}
+}*/

@@ -12,14 +12,14 @@
 
 #include "fractol.h"
 
-int		julia_motion(int x, int y, t_base *fract)
+/*int		julia_motion(int x, int y, t_base *fract)
 {
 	fract->k = init_complex(
 			4 * ((double)x / WIDTH - 0.5),
 			4 * ((double)(HEIGHT - y) / HEIGHT - 0.5));
 	draw(fract);
 	return (0);
-}
+}*/
 
 void 	mandelbrot(int x, int y, t_base *fract)
 {
