@@ -198,3 +198,8 @@ CMakeFiles/Fractol.dir/multithreading.c.o: ../minilibx_macos/mlx.h
 CMakeFiles/Fractol.dir/multithreading.c.o: ../fractol.h
 CMakeFiles/Fractol.dir/multithreading.c.o: ../multithreading.c
 
+CMakeFiles/Fractol.dir/utils.c.o: ../libft/libft.h
+CMakeFiles/Fractol.dir/utils.c.o: ../minilibx_macos/mlx.h
+CMakeFiles/Fractol.dir/utils.c.o: ../fractol.h
+CMakeFiles/Fractol.dir/utils.c.o: ../utils.c
+

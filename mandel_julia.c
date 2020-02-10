@@ -27,21 +27,22 @@ void 	mandelbrot(int x, int y, t_base *fract)
 	t_complex factor;
 	t_complex c;
 
-	fract->min = init_complex(fract->min.re + fract->shift_x, fract->min.im + fract->shift_y);
-	fract->max.re += fract->shift_x;
-	fract->max.im += fract->shift_y;
+//	fract->min = init_complex(fract->min.re + fract->shift_x, fract->min.im + fract->shift_y);
+//	fract->min = init_complex(fract->min.re, fract->min.im);
+//	fract->max.re += fract->shift_x;
+//	fract->max.im += fract->shift_y;
 	factor = init_complex((fract->max.re - fract->min.re) / (WIDTH - 1)
 			, (fract->max.im - fract->min .im) / (HEIGHT - 1));
 	fract->iter.max_i = 50;
-	c.im = fract->max.im - y * factor.im;
-	c.re = fract->min.re + x * factor.re;
-	z = init_complex(c.re, c.im);
+	fract->c.im = fract->max.im - y * factor.im + fract->shift_y;
+	fract->c.re = fract->min.re + x * factor.re + fract->shift_x;
+	z = init_complex(fract->c.re, fract->c.im);
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
 		   && fract->iter.i < fract->iter.max_i)
 	{
-		z = init_complex(z.re * z.re - z.im * z.im + c.re
-				, 2.0 * z.re * z.im + c.im);
+		z = init_complex(z.re * z.re - z.im * z.im + fract->c.re
+				, 2.0 * z.re * z.im + fract->c.im);
 		fract->iter.i++;
 	}
 	put_dot(x, y, fract->iter, fract);

@@ -15,24 +15,10 @@
 
 void	*part_of_fract(void *param)
 {
-//	t_potok *thr;
 	t_base *fract;
 	int y;
 	int x;
 
-/*	thr = (t_potok *)param;
-	y = thr->s_line;
-	while (y < thr->f_line)
-	{
-		x = 0;
-		while (x < WIDTH)
-		{
-			mandelbrot(x, y, thr->fract, thr);
-			x++;
-		}
-		y++;
-	}
-	pthread_exit(0);*/
 	fract = (t_base *)param;
 	y = fract->thr.s_line;
 	while (y < fract->thr.f_line)
@@ -40,7 +26,8 @@ void	*part_of_fract(void *param)
 		x = 0;
 		while (x < WIDTH)
 		{
-			mandelbrot(x, y, fract);
+			wtf(x, y, fract);
+//			mandelbrot(x, y, fract);
 			x++;
 		}
 		y++;
@@ -54,7 +41,6 @@ void	multip(t_base *fract)
 	int i;
 	pthread_t tid[THREADS];
 	t_base fr[THREADS];
-//	t_potok thr[THREADS];
 
 	i = 0;
 	mlx_destroy_image(fract->mlx.mlx, fract->img.img_ptr);
@@ -64,10 +50,6 @@ void	multip(t_base *fract)
 		fr[i] = *fract;
 		fr[i].thr.s_line = HEIGHT * ((float)i / THREADS);
 		fr[i].thr.f_line = HEIGHT * ((float)(i + 1) / THREADS);
-//		thr[i].s_line = HEIGHT * ((float)i / THREADS);
-//		thr[i].f_line = HEIGHT * ((float)(i + 1) / THREADS);
-//		thr[i].fract = fract;
-//		status = pthread_create(&tid[i], NULL, part_of_fract, &(thr[i]));
 		status = pthread_create(&tid[i], NULL, part_of_fract, &fr[i]);
 		if (status)
 			exit(ERROR_CREATE_THREAD);

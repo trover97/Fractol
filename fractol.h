@@ -108,12 +108,11 @@ typedef struct	s_base
 	t_iter iter;
 	t_complex min;
 	t_complex max;
-	int s_line;
-	int f_line;
-	double zoom;
-//	int s_line;
-//	int f_line;
 	t_complex k;
+	t_complex c;
+	t_complex factor;
+	char *name;
+	int fractal;
 //	double zoom_re;
 //	double zoom_im;
 	double	shift_y;
@@ -121,6 +120,7 @@ typedef struct	s_base
 	t_potok thr;
 }				t_base;
 
+void 			choose_f(t_base *fract);
 void			draw(t_base *fract);
 void			img_new(t_base *fract);
 t_complex		init_complex(double re, double im);
@@ -131,6 +131,8 @@ void			multip(t_base *fract);
 void			*part_of_fract(void *param);
 void			put_dot(int x, int y, t_iter iter, t_base *base);
 void			julia(int x, int y, t_base *fract);
+void			usage();
+void			wtf(int x, int y, t_base *fract);
 void			zoom(int button ,int x, int y, t_base *fract);
 
 #endif

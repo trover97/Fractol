@@ -82,4 +82,4 @@ add_executable(Fractol
     libft/libft.h
     minilibx_macos/libmlx.a
     fractol.h
-    main.c mandel_julia.c complex.c draw.c control.c multithreading.c)
+    main.c mandel_julia.c complex.c draw.c control.c multithreading.c utils.c)

@@ -313,6 +313,9 @@
 		<Unit filename="/Users/wquirrel/Documents/Fractol/multithreading.c">
 			<Option target="Fractol"/>
 		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/utils.c">
+			<Option target="Fractol"/>
+		</Unit>
 		<Unit filename="/Users/wquirrel/Documents/Fractol/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

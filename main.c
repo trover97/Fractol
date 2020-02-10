@@ -23,7 +23,6 @@ void	zoom(int button ,int x, int y, t_base *fract)
 {
 	t_complex mouse;
 	double zoom;
-	zoom = 0;
 		mouse = init_complex(
 				(double)x / (WIDTH / (fract->max.re - fract->min.re))
 				+ fract->min.re,
@@ -73,11 +72,14 @@ void		init(t_base *fract)
 	fract->k = init_complex(-0.4, 0.6);
 }
 
-int main()
+int main(int ac, char **av)
 {
 	t_base fract;
 
-
+	if(ac != 2)
+		exit(EXIT_FAILURE);
+	fract.name = av[1];
+	choose_f(&fract);
 	init(&fract);
 //	mandelbrot(&fract);
 //	draw(&fract);

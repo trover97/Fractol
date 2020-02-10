@@ -2067,6 +2067,33 @@ multithreading.c.s:
 	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/multithreading.c.s
 .PHONY : multithreading.c.s
 
+utils.o: utils.c.o
+
+.PHONY : utils.o
+
+# target to build an object file
+utils.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/utils.c.o
+.PHONY : utils.c.o
+
+utils.i: utils.c.i
+
+.PHONY : utils.i
+
+# target to preprocess a source file
+utils.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/utils.c.i
+.PHONY : utils.c.i
+
+utils.s: utils.c.s
+
+.PHONY : utils.s
+
+# target to generate assembly for a file
+utils.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/utils.c.s
+.PHONY : utils.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2292,6 +2319,9 @@ help:
 	@echo "... multithreading.o"
 	@echo "... multithreading.i"
 	@echo "... multithreading.s"
+	@echo "... utils.o"
+	@echo "... utils.i"
+	@echo "... utils.s"
 .PHONY : help
 
 

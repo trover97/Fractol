@@ -71,6 +71,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Fractol.dir/main.c.o"
   "CMakeFiles/Fractol.dir/mandel_julia.c.o"
   "CMakeFiles/Fractol.dir/multithreading.c.o"
+  "CMakeFiles/Fractol.dir/utils.c.o"
   "Fractol"
   "Fractol.pdb"
 )
