@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fractol.h";
+#include "fractol.h"
 
 void 			choose_f(t_base *fract)
 {
@@ -29,16 +29,22 @@ void 			choose_f(t_base *fract)
 
 void	usage()
 {
-	ft_putstr("Usage:");
-	ft_putstr("1. Mandelbrot:\n2. Julia\n3. Burning_ship");
+	ft_putstr("Usage: ./fractol [fractal]\n");
+	ft_putstr("1. Mandelbrot:\n2. Julia\n3. Burning_ship\n");
 }
 
 void	wtf(int x, int y, t_base *fract)
 {
+	t_complex factor;
+
+	factor = init_complex((fract->max.re - fract->min.re) / (WIDTH - 1)
+			, (fract->max.im - fract->min .im) / (HEIGHT - 1));
+	fract->c.im = fract->max.im - y * factor.im + fract->shift_y;
+	fract->c.re = fract->min.re + x * factor.re + fract->shift_x;
 	if(fract->fractal == 1)
 		mandelbrot(x, y, fract);
-//	else if(fract->fractal == 2)
-//		julia(x, y, fract);
+	else if(fract->fractal == 2)
+		julia(x, y, fract);
 //	else if(fract->fractal == 3)
 //		burning_ship();
 }

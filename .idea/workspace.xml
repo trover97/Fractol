@@ -12,29 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df39199a-6c7c-428a-b026-4e185c5ffeef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/utils.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/complex.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/complex.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/draw.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/draw.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Fractol" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Fractol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Fractol.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Fractol.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/control.c" beforeDir="false" afterPath="$PROJECT_DIR$/control.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fractol.h" beforeDir="false" afterPath="$PROJECT_DIR$/fractol.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mandel_julia.c" beforeDir="false" afterPath="$PROJECT_DIR$/mandel_julia.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithreading.c" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/utils.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +63,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Fractol" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Mandelbrot" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Fractol" TARGET_NAME="Fractol" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Fractol" RUN_TARGET_NAME="Fractol">
+    <configuration name="Fractol" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Julia" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Fractol" TARGET_NAME="Fractol" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Fractol" RUN_TARGET_NAME="Fractol">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -108,7 +96,9 @@
       <workItem from="1581332990659" duration="308000" />
       <workItem from="1581336561439" duration="85000" />
       <workItem from="1581336759078" duration="6230000" />
-      <workItem from="1581356547901" duration="77000" />
+      <workItem from="1581356547901" duration="747000" />
+      <workItem from="1581424085425" duration="5036000" />
+      <workItem from="1581436728504" duration="224000" />
     </task>
     <task id="LOCAL-00001" summary="add new struct">
       <created>1579963169031</created>
@@ -166,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581273124646</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Error management + utils.c">
+      <created>1581357562406</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581357562406</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,37 +190,38 @@
     <MESSAGE value="Julia(doesnt work)" />
     <MESSAGE value="Thread(doesnt work)" />
     <MESSAGE value="Thread(work)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread(work)" />
+    <MESSAGE value="Error management + utils.c" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error management + utils.c" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581348991523">
+    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581425789361">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581348991522" />
+    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581425789361" />
     <state x="1243" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580204710960">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1243" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1580204710960" />
-    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1581273124383">
+    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1581357562019">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1581273124383" />
-    <state width="549" height="381" key="GridCell.Tab.0.bottom" timestamp="1581349626918">
+    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1581357562019" />
+    <state width="549" height="381" key="GridCell.Tab.0.bottom" timestamp="1581430360588">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="549" height="381" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581349626918" />
-    <state width="549" height="381" key="GridCell.Tab.0.center" timestamp="1581349626917">
+    <state width="549" height="381" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581430360588" />
+    <state width="549" height="381" key="GridCell.Tab.0.center" timestamp="1581430360587">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="549" height="381" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581349626917" />
-    <state width="549" height="381" key="GridCell.Tab.0.left" timestamp="1581349626917">
+    <state width="549" height="381" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581430360587" />
+    <state width="549" height="381" key="GridCell.Tab.0.left" timestamp="1581430360586">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="549" height="381" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581349626917" />
-    <state width="549" height="381" key="GridCell.Tab.0.right" timestamp="1581349626918">
+    <state width="549" height="381" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581430360586" />
+    <state width="549" height="381" key="GridCell.Tab.0.right" timestamp="1581430360587">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="549" height="381" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581349626918" />
+    <state width="549" height="381" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581430360587" />
     <state width="549" height="469" key="GridCell.Tab.1.bottom" timestamp="1581273145664">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -260,10 +258,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1587" y="430" width="540" height="524" key="StructurePopup/0.23.2560.1337@0.23.2560.1337" timestamp="1580132283915" />
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1581273127083">
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1581357565874">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1581273127083" />
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1581357565874" />
     <state x="936" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1580291993160">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -286,12 +284,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>76</line>
+          <line>88</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/mandel_julia.c</url>
-          <line>101</line>
+          <line>94</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

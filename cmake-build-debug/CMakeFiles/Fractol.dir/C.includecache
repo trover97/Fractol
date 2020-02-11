@@ -25,8 +25,10 @@ math.h
 -
 pthread.h
 -
+stdio.h
+-
 
-/Users/wquirrel/Documents/Fractol/main.c
+/Users/wquirrel/Documents/Fractol/mandel_julia.c
 fractol.h
 /Users/wquirrel/Documents/Fractol/fractol.h
 

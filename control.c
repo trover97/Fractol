@@ -28,13 +28,13 @@ int key_press(int keycode, t_base *fract)
 	else if(keycode == ARROW_RIGHT)
 		fract->c.re -= SHIFT;*/
 	else if(keycode == ARROW_UP)
-		fract->shift_y -= (fract->max.re - fract->min.re) / 100;
+		fract->shift_y -= fabs((fract->max.re - fract->min.re) / 100);
 	else if(keycode == ARROW_DOWN)
-		fract->shift_y += (fract->max.re - fract->min.re) / 100;
+		fract->shift_y += fabs((fract->max.re - fract->min.re) / 100);
 	else if(keycode == ARROW_LEFT)
-		fract->shift_x += (fract->max.re - fract->min.re) / 100;
+		fract->shift_x += fabs((fract->max.re - fract->min.re) / 100);
 	else if(keycode == ARROW_RIGHT)
-		fract->shift_x -= (fract->max.re - fract->min.re) / 100;
+		fract->shift_x -= fabs((fract->max.re - fract->min.re) / 100);
 	multip(fract);
 //	draw(fract);
 }

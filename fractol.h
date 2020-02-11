@@ -17,6 +17,7 @@
 # include "mlx.h"
 # include <math.h>
 # include <pthread.h>
+#	include <stdio.h> // KILL ME
 
 /*
 ** Window
@@ -111,8 +112,10 @@ typedef struct	s_base
 	t_complex k;
 	t_complex c;
 	t_complex factor;
+	t_complex z;
 	char *name;
 	int fractal;
+	int is_pressed;
 //	double zoom_re;
 //	double zoom_im;
 	double	shift_y;

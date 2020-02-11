@@ -12,30 +12,29 @@
 
 #include "fractol.h"
 
-/*int		julia_motion(int x, int y, t_base *fract)
+int		julia_motion(int x, int y, t_base *fract)
 {
-	fract->k = init_complex(
-			4 * ((double)x / WIDTH - 0.5),
-			4 * ((double)(HEIGHT - y) / HEIGHT - 0.5));
-	draw(fract);
+	if(fract->is_pressed)
+	{
+		fract->k = init_complex(
+				4 * ((double) x / WIDTH - 0.5),
+				4 * ((double) (HEIGHT - y) / HEIGHT - 0.5));
+		multip(fract);
+	}
 	return (0);
-}*/
+}
 
 void 	mandelbrot(int x, int y, t_base *fract)
 {
 	t_complex z;
-	t_complex factor;
-	t_complex c;
+//	t_complex factor;
+//	t_complex c;
 
-//	fract->min = init_complex(fract->min.re + fract->shift_x, fract->min.im + fract->shift_y);
-//	fract->min = init_complex(fract->min.re, fract->min.im);
-//	fract->max.re += fract->shift_x;
-//	fract->max.im += fract->shift_y;
-	factor = init_complex((fract->max.re - fract->min.re) / (WIDTH - 1)
-			, (fract->max.im - fract->min .im) / (HEIGHT - 1));
-	fract->iter.max_i = 50;
-	fract->c.im = fract->max.im - y * factor.im + fract->shift_y;
-	fract->c.re = fract->min.re + x * factor.re + fract->shift_x;
+//	factor = init_complex((fract->max.re - fract->min.re) / (WIDTH - 1)
+//			, (fract->max.im - fract->min .im) / (HEIGHT - 1));
+//	fract->iter.max_i = 50;
+//	fract->c.im = fract->max.im - y * factor.im + fract->shift_y;
+//	fract->c.re = fract->min.re + x * factor.re + fract->shift_x;
 	z = init_complex(fract->c.re, fract->c.im);
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
@@ -51,18 +50,15 @@ void 	mandelbrot(int x, int y, t_base *fract)
 void julia(int x, int y, t_base *fract)
 {
 	t_complex z;
-	t_complex factor;
-	t_complex c;
+//	t_complex factor;
+//	t_complex c;
 
-	fract->min = init_complex(fract->min.re + fract->shift_x, fract->min.im + fract->shift_y);
-	fract->max.re += fract->shift_x;
-	fract->max.im += fract->shift_y;
-	factor = init_complex((fract->max.re - fract->min.re) / (WIDTH - 1)
-			, (fract->max.im - fract->min .im) / (HEIGHT - 1));
-	fract->iter.max_i = 50;
-	c.im = fract->max.im - y * factor.im;
-	c.re = fract->min.re + x * factor.re;
-	z = init_complex(c.re, c.im);
+//	factor = init_complex((fract->max.re - fract->min.re) / (WIDTH - 1)
+//			, (fract->max.im - fract->min .im) / (HEIGHT - 1));
+//	fract->iter.max_i = 50;
+//	fract->c.im = fract->max.im - y * factor.im + fract->shift_y;
+//	fract->c.re = fract->min.re + x * factor.re + fract->shift_x;
+	z = init_complex(fract->c.re,fract->c.im);
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
 		   && fract->iter.i < fract->iter.max_i)
