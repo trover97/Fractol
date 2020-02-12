@@ -2040,6 +2040,33 @@ mandel_julia.c.s:
 	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandel_julia.c.s
 .PHONY : mandel_julia.c.s
 
+menu.o: menu.c.o
+
+.PHONY : menu.o
+
+# target to build an object file
+menu.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/menu.c.o
+.PHONY : menu.c.o
+
+menu.i: menu.c.i
+
+.PHONY : menu.i
+
+# target to preprocess a source file
+menu.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/menu.c.i
+.PHONY : menu.c.i
+
+menu.s: menu.c.s
+
+.PHONY : menu.s
+
+# target to generate assembly for a file
+menu.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/menu.c.s
+.PHONY : menu.c.s
+
 multithreading.o: multithreading.c.o
 
 .PHONY : multithreading.o
@@ -2316,6 +2343,9 @@ help:
 	@echo "... mandel_julia.o"
 	@echo "... mandel_julia.i"
 	@echo "... mandel_julia.s"
+	@echo "... menu.o"
+	@echo "... menu.i"
+	@echo "... menu.s"
 	@echo "... multithreading.o"
 	@echo "... multithreading.i"
 	@echo "... multithreading.s"

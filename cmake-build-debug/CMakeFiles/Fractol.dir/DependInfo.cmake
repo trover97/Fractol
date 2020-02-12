@@ -75,6 +75,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/wquirrel/Documents/Fractol/libft/ft_wordlen.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_wordlen.c.o"
   "/Users/wquirrel/Documents/Fractol/main.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o"
   "/Users/wquirrel/Documents/Fractol/mandel_julia.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/mandel_julia.c.o"
+  "/Users/wquirrel/Documents/Fractol/menu.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/menu.c.o"
   "/Users/wquirrel/Documents/Fractol/multithreading.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/multithreading.c.o"
   "/Users/wquirrel/Documents/Fractol/utils.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/utils.c.o"
   )

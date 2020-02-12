@@ -27,7 +27,6 @@ void	*part_of_fract(void *param)
 		while (x < WIDTH)
 		{
 			wtf(x, y, fract);
-//			mandelbrot(x, y, fract);
 			x++;
 		}
 		y++;
@@ -64,4 +63,5 @@ void	multip(t_base *fract)
 		i++;
 	}
 	mlx_put_image_to_window(fract->mlx.mlx, fract->mlx.win, fract->img.img_ptr, 0, 0);
+	print_menu(fract);
 }

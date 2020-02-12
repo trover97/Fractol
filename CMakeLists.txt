@@ -7,7 +7,7 @@ include_directories(.)
 include_directories(libft)
 include_directories(minilibx_macos)
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -lmlx -framework OpenGL -framework AppKit")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3 -lmlx -framework OpenGL -framework AppKit")
 
 #set(GCC_COVERAGE_COMPILE_FLAGS "-pthread")
 #set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}" )
@@ -82,4 +82,4 @@ add_executable(Fractol
     libft/libft.h
     minilibx_macos/libmlx.a
     fractol.h
-    main.c mandel_julia.c complex.c draw.c control.c multithreading.c utils.c)
+    main.c mandel_julia.c complex.c draw.c control.c multithreading.c utils.c menu.c)

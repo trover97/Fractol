@@ -193,6 +193,11 @@ CMakeFiles/Fractol.dir/mandel_julia.c.o: ../minilibx_macos/mlx.h
 CMakeFiles/Fractol.dir/mandel_julia.c.o: ../fractol.h
 CMakeFiles/Fractol.dir/mandel_julia.c.o: ../mandel_julia.c
 
+CMakeFiles/Fractol.dir/menu.c.o: ../libft/libft.h
+CMakeFiles/Fractol.dir/menu.c.o: ../minilibx_macos/mlx.h
+CMakeFiles/Fractol.dir/menu.c.o: ../fractol.h
+CMakeFiles/Fractol.dir/menu.c.o: ../menu.c
+
 CMakeFiles/Fractol.dir/multithreading.c.o: ../libft/libft.h
 CMakeFiles/Fractol.dir/multithreading.c.o: ../minilibx_macos/mlx.h
 CMakeFiles/Fractol.dir/multithreading.c.o: ../fractol.h

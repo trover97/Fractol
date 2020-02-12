@@ -12,7 +12,7 @@
 
 #include "fractol.h"
 
-int		color(int iteration, int max_iteration)
+int		color(int iteration, int max_iteration, t_base *fract)
 {
 	double t;
 	int red;
@@ -21,23 +21,25 @@ int		color(int iteration, int max_iteration)
 
 	t = (double) iteration / max_iteration;
 
-	red = (int) (9 * (1 - t) * pow(t, 3) * 255);
-	green = (int) (15 * pow((1 - t), 2) * pow(t, 2) * 255);
-	blue = (int) (8.5 * pow((1 - t), 3) * t * 255);
-	return (red << 16 | green << 8 | blue);
+	red = (int) (9 * (1 - t) * pow(t, 3) * 255) + fract->rgb.r;
+	green = (int) (15 * pow((1 - t), 2) * pow(t, 2) * 255) + fract->rgb.g;
+	blue = (int) (8.5 * pow((1 - t), 3) * t * 255) + fract->rgb.b;
+	return (iteration < max_iteration) ? (red << 16 | green << 8 | blue) : 0;
 }
 
 
-void		put_dot(int x, int y, t_iter iter, t_base *base)
+void		put_dot(int x, int y, t_iter iter, t_base *fract)
 {
 	int i;
+	int c;
 
 	if (x < 0 || x >= WIDTH || y < 0 || y >= HEIGHT)
 		return ;
 	i = y * WIDTH + x;
-	base->img.data[i] = color(iter.i, iter.max_i);
-	base->img.data[++i] = color(iter.i, iter.max_i) >> 8;
-	base->img.data[++i] = color(iter.i, iter.max_i) >> 16;
+	c = color(iter.i, iter.max_i, fract);
+	fract->img.data[i] = c;
+	fract->img.data[++i] = c >> 8;
+	fract->img.data[++i] = c >> 16;
 }
 
 /*

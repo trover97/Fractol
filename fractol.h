@@ -23,8 +23,8 @@
 ** Window
 */
 
-# define WIDTH 1000
-# define HEIGHT 1000
+# define WIDTH 900
+# define HEIGHT 900
 
 /*
 ** Colors
@@ -44,6 +44,9 @@
 */
 
 # define ESC				53
+# define R					15
+# define G					5
+# define B					11
 # define M 					46
 # define MLB 				1
 # define MRB 				2
@@ -53,6 +56,11 @@
 # define ARROW_RIGHT		124
 # define MOUSE_SCROLL_UP	4
 # define MOUSE_SCROLL_DOWN	5
+# define NUM_PAD_PLUS		69
+# define NUM_PAD_MINUS		78
+# define MAIN_PAD_PLUS		24
+# define MAIN_PAD_MINUS		27
+
 
 /*
 ** Threads
@@ -68,6 +76,13 @@
 
 # define THREADS 10
 # define SHIFT 0.001
+
+typedef struct	s_color
+{
+	int r;
+	int g;
+	int b;
+}				t_color;
 
 typedef struct	s_potok
 {
@@ -113,9 +128,11 @@ typedef struct	s_base
 	t_complex c;
 	t_complex factor;
 	t_complex z;
+	t_color rgb;
 	char *name;
 	int fractal;
 	int is_pressed;
+	int color;
 //	double zoom_re;
 //	double zoom_im;
 	double	shift_y;
@@ -132,7 +149,8 @@ int				julia_motion(int x, int y, t_base *fract);
 void			mandelbrot(int x, int y, t_base *fract);
 void			multip(t_base *fract);
 void			*part_of_fract(void *param);
-void			put_dot(int x, int y, t_iter iter, t_base *base);
+void			put_dot(int x, int y, t_iter iter, t_base *fract);
+void			print_menu(t_base *fract);
 void			julia(int x, int y, t_base *fract);
 void			usage();
 void			wtf(int x, int y, t_base *fract);

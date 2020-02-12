@@ -14,19 +14,8 @@
 
 int key_press(int keycode, t_base *fract)
 {
-//	mlx_destroy_image(fract->mlx.mlx, fract->img.img_ptr);
-//	img_new(fract);
-//
 	if(keycode == ESC)
 		exit(0);
-/*	else if(keycode == ARROW_UP)
-		fract->c.im -= SHIFT;
-	else if(keycode == ARROW_DOWN)
-		fract->c.im += SHIFT;
-	else if(keycode == ARROW_LEFT)
-		fract->c.re += SHIFT;
-	else if(keycode == ARROW_RIGHT)
-		fract->c.re -= SHIFT;*/
 	else if(keycode == ARROW_UP)
 		fract->shift_y -= fabs((fract->max.re - fract->min.re) / 100);
 	else if(keycode == ARROW_DOWN)
@@ -35,6 +24,23 @@ int key_press(int keycode, t_base *fract)
 		fract->shift_x += fabs((fract->max.re - fract->min.re) / 100);
 	else if(keycode == ARROW_RIGHT)
 		fract->shift_x -= fabs((fract->max.re - fract->min.re) / 100);
+	else if(keycode == NUM_PAD_MINUS)
+	{
+		fract->iter.max_i--;
+		if(fract->iter.max_i < 1)
+			fract->iter.max_i = 1;
+	}
+	else if(keycode == NUM_PAD_PLUS)
+	{
+		fract->iter.max_i++;
+		if(fract->iter.max_i > 500)
+			fract->iter.max_i = 500;
+	}
+	else if(keycode == R)
+		fract->rgb.r += 5;
+	else if(keycode == G)
+		fract->rgb.g += 5;
+	else if(keycode == B)
+		fract->rgb.b += 5;
 	multip(fract);
-//	draw(fract);
 }

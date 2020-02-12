@@ -307,6 +307,9 @@
 		<Unit filename="/Users/wquirrel/Documents/Fractol/mandel_julia.c">
 			<Option target="Fractol"/>
 		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/menu.c">
+			<Option target="Fractol"/>
+		</Unit>
 		<Unit filename="/Users/wquirrel/Documents/Fractol/minilibx_macos/libmlx.a">
 			<Option target="Fractol"/>
 		</Unit>

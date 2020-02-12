@@ -82,6 +82,9 @@ void		init(t_base *fract)
 	fract->iter.max_i = 50;
 	fract->k = init_complex(-0.4, 0.6);
 	fract->is_pressed = 1;
+	fract->rgb.r = 0;
+	fract->rgb.g = 0;
+	fract->rgb.b = 0;
 }
 
 int main(int ac, char **av)
