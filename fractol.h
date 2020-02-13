@@ -140,6 +140,7 @@ typedef struct	s_base
 	t_potok thr;
 }				t_base;
 
+void			burning_ship(int x, int y, t_base *fract);
 void 			choose_f(t_base *fract);
 void			draw(t_base *fract);
 void			img_new(t_base *fract);

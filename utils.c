@@ -18,7 +18,7 @@ void 			choose_f(t_base *fract)
 		fract->fractal = 1;
 	else if(ft_strequ("Julia", fract->name))
 		fract->fractal = 2;
-	else if(ft_strequ("Burning_Ship", fract->name))
+	else if(ft_strequ("Burning_ship", fract->name))
 		fract->fractal = 3;
 	else
 	{
@@ -45,6 +45,6 @@ void	wtf(int x, int y, t_base *fract)
 		mandelbrot(x, y, fract);
 	else if(fract->fractal == 2)
 		julia(x, y, fract);
-//	else if(fract->fractal == 3)
-//		burning_ship();
+	else if(fract->fractal == 3)
+		burning_ship(x, y, fract);
 }

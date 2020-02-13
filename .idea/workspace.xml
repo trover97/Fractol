@@ -12,97 +12,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df39199a-6c7c-428a-b026-4e185c5ffeef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/menu.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fractals.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/complex.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/complex.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/draw.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/draw.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_atoi.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_atoi.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_bzero.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_bzero.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_countwords.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_countwords.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isalnum.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isalnum.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isalpha.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isalpha.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isascii.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isascii.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_ischar.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_ischar.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isdigit.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isdigit.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_islower.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_islower.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isprint.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isprint.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isspace.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isspace.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isupper.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_isupper.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_itoa.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_itoa.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_lstadd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_lstadd.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_lstdel.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_lstdel.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_lstdelone.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_lstdelone.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_lstiter.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_lstiter.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_lstmap.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_lstmap.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_lstnew.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_lstnew.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memalloc.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memalloc.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memccpy.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memccpy.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memchr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memchr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memcmp.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memcmp.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memcpy.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memcpy.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memdel.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memdel.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memmove.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memmove.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memset.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_memset.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putchar.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putchar.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putchar_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putchar_fd.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putendl.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putendl.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putendl_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putendl_fd.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putnbr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putnbr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putnbr_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putnbr_fd.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putstr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putstr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putstr_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_putstr_fd.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_revstr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_revstr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strcat.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strcat.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strchr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strchr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strclr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strclr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strcmp.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strcmp.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strcpy.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strcpy.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strdel.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strdel.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strdup.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strdup.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strequ.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strequ.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_striter.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_striter.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_striteri.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_striteri.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strjoin.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strjoin.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strlcat.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strlcat.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strlen.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strlen.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strmap.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strmap.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strmapi.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strmapi.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strncat.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strncat.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strncmp.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strncmp.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strncpy.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strncpy.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strnequ.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strnequ.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strnew.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strnew.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strnlen.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strnlen.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strnstr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strnstr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strrchr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strrchr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strsplit.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strsplit.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strstr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strstr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strsub.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strsub.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strtrim.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_strtrim.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_tolower.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_tolower.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_toupper.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_toupper.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_wordlen.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_wordlen.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Fractol" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Fractol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Fractol.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Fractol.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control.c" beforeDir="false" afterPath="$PROJECT_DIR$/control.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draw.c" beforeDir="false" afterPath="$PROJECT_DIR$/draw.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fractol.h" beforeDir="false" afterPath="$PROJECT_DIR$/fractol.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithreading.c" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/utils.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +68,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Fractol" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Julia" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Fractol" TARGET_NAME="Fractol" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Fractol" RUN_TARGET_NAME="Fractol">
+    <configuration name="Fractol" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Burning_ship" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Fractol" TARGET_NAME="Fractol" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Fractol" RUN_TARGET_NAME="Fractol">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -181,6 +106,7 @@
       <workItem from="1581436728504" duration="443000" />
       <workItem from="1581511287382" duration="6145000" />
       <workItem from="1581529666209" duration="439000" />
+      <workItem from="1581601430646" duration="2502000" />
     </task>
     <task id="LOCAL-00001" summary="add new struct">
       <created>1579963169031</created>
@@ -284,10 +210,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Choosing fractals + Julia(with mouse)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581522074007">
+    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581602911237">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581522074007" />
+    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581602911237" />
     <state x="1243" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580204710960">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -296,22 +222,22 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1581530182887" />
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1581522153763">
+    <state width="1182" height="117" key="GridCell.Tab.0.bottom" timestamp="1581606319768">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581522153763" />
-    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1581522153762">
+    <state width="1182" height="117" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581606319768" />
+    <state width="1182" height="117" key="GridCell.Tab.0.center" timestamp="1581606319766">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581522153762" />
-    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1581522153761">
+    <state width="1182" height="117" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581606319766" />
+    <state width="1182" height="117" key="GridCell.Tab.0.left" timestamp="1581606319766">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581522153761" />
-    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1581522153763">
+    <state width="1182" height="117" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581606319766" />
+    <state width="1182" height="117" key="GridCell.Tab.0.right" timestamp="1581606319767">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581522153763" />
+    <state width="1182" height="117" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581606319767" />
     <state width="1358" height="271" key="GridCell.Tab.1.bottom" timestamp="1581518698165">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -348,10 +274,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1587" y="430" width="540" height="524" key="StructurePopup/0.23.2560.1337@0.23.2560.1337" timestamp="1580132283915" />
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1581437652737">
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1581530359011">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1581437652737" />
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1581530359011" />
     <state x="936" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1580291993160">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>

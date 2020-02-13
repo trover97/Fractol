@@ -204,6 +204,33 @@ draw.c.s:
 	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/draw.c.s
 .PHONY : draw.c.s
 
+fractals.o: fractals.c.o
+
+.PHONY : fractals.o
+
+# target to build an object file
+fractals.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/fractals.c.o
+.PHONY : fractals.c.o
+
+fractals.i: fractals.c.i
+
+.PHONY : fractals.i
+
+# target to preprocess a source file
+fractals.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/fractals.c.i
+.PHONY : fractals.c.i
+
+fractals.s: fractals.c.s
+
+.PHONY : fractals.s
+
+# target to generate assembly for a file
+fractals.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/fractals.c.s
+.PHONY : fractals.c.s
+
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
 .PHONY : libft/ft_atoi.o
@@ -2139,6 +2166,9 @@ help:
 	@echo "... draw.o"
 	@echo "... draw.i"
 	@echo "... draw.s"
+	@echo "... fractals.o"
+	@echo "... fractals.i"
+	@echo "... fractals.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
