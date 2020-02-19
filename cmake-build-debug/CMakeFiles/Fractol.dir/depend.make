@@ -16,6 +16,11 @@ CMakeFiles/Fractol.dir/draw.c.o: ../minilibx_macos/mlx.h
 CMakeFiles/Fractol.dir/draw.c.o: ../draw.c
 CMakeFiles/Fractol.dir/draw.c.o: ../fractol.h
 
+CMakeFiles/Fractol.dir/fractals.c.o: ../libft/libft.h
+CMakeFiles/Fractol.dir/fractals.c.o: ../minilibx_macos/mlx.h
+CMakeFiles/Fractol.dir/fractals.c.o: ../fractals.c
+CMakeFiles/Fractol.dir/fractals.c.o: ../fractol.h
+
 CMakeFiles/Fractol.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
 
 CMakeFiles/Fractol.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c

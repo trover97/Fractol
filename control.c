@@ -33,14 +33,14 @@ int key_press(int keycode, t_base *fract)
 	else if(keycode == NUM_PAD_PLUS)
 	{
 		fract->iter.max_i++;
-		if(fract->iter.max_i > 500)
-			fract->iter.max_i = 500;
+		if(fract->iter.max_i > 300)
+			fract->iter.max_i = 300;
 	}
 	else if(keycode == R)
-		fract->rgb.r += 5;
+		fract->rgb.r += 1;
 	else if(keycode == G)
-		fract->rgb.g += 5;
+		fract->rgb.g += 1;
 	else if(keycode == B)
-		fract->rgb.b += 5;
+		fract->rgb.b += 1;
 	multip(fract);
 }

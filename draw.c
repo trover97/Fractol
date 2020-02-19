@@ -21,9 +21,9 @@ int		color(int iteration, int max_iteration, t_base *fract)
 
 	t = (double) iteration / max_iteration;
 
-	red = (int) (9 * (1 - t) * pow(t, 3) * 255) + fract->rgb.r;
-	green = (int) (15 * pow((1 - t), 2) * pow(t, 2) * 255) + fract->rgb.g;
-	blue = (int) (8.5 * pow((1 - t), 3) * t * 255) + fract->rgb.b;
+	red = (int) (9 * (1 - t) * t * t * t * 255) + fract->rgb.r;
+	green = (int) (15 * (1 - t) * (1 - t) * t * t * 255) + fract->rgb.g;
+	blue = (int) (8.5 * (1 - t) * (1 - t) * (1 - t) * t * 255) + fract->rgb.b;
 	return (iteration < max_iteration) ? (red << 16 | green << 8 | blue) : 0;
 }
 

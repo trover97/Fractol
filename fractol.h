@@ -6,7 +6,7 @@
 /*   By: wquirrel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/24 15:43:26 by wquirrel          #+#    #+#             */
-/*   Updated: 2020/01/24 15:43:30 by wquirrel         ###   ########.fr       */
+/*   Updated: 2020/02/18 16:13:51 by wquirrel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,14 +17,15 @@
 # include "mlx.h"
 # include <math.h>
 # include <pthread.h>
+# include <stdint.h>
 #	include <stdio.h> // KILL ME
 
 /*
 ** Window
 */
 
-# define WIDTH 900
-# define HEIGHT 900
+# define WIDTH 1000
+# define HEIGHT 1000
 
 /*
 ** Colors
@@ -79,21 +80,21 @@
 
 typedef struct	s_color
 {
-	int r;
-	int g;
-	int b;
+	uint8_t r;
+	uint8_t g;
+	uint8_t b;
 }				t_color;
 
 typedef struct	s_potok
 {
-	int s_line;
-	int f_line;
+	uint16_t s_line;
+	uint16_t f_line;
 }				t_potok;
 
 typedef	struct	s_iter
 {
-	int i;
-	int max_i;
+	int16_t i;
+	int16_t max_i;
 }				t_iter;
 
 typedef	struct	s_complex
@@ -127,12 +128,12 @@ typedef struct	s_base
 	t_complex k;
 	t_complex c;
 	t_complex factor;
-	t_complex z;
+	int16_t z;
 	t_color rgb;
 	char *name;
-	int fractal;
-	int is_pressed;
-	int color;
+	uint8_t fractal;
+	uint_fast8_t is_pressed;
+//	int color;
 //	double zoom_re;
 //	double zoom_im;
 	double	shift_y;
@@ -140,19 +141,24 @@ typedef struct	s_base
 	t_potok thr;
 }				t_base;
 
+void			biomorph(int x, int y, t_base *fract);
 void			burning_ship(int x, int y, t_base *fract);
+void			burning_julia(int x, int y, t_base *fract);
 void 			choose_f(t_base *fract);
+void			douady_rabbit(int x, int y, t_base *fract);
 void			draw(t_base *fract);
 void			img_new(t_base *fract);
 t_complex		init_complex(double re, double im);
-int				key_press(int keycode, t_base *fract);
+void			julia(int x, int y, t_base *fract);
 int				julia_motion(int x, int y, t_base *fract);
+int				key_press(int keycode, t_base *fract);
+void			mandelbar(int x, int y, t_base *fract);
 void			mandelbrot(int x, int y, t_base *fract);
 void			multip(t_base *fract);
 void			*part_of_fract(void *param);
+void			perpendicular_mandelbrot(int x, int y, t_base *fract);
 void			put_dot(int x, int y, t_iter iter, t_base *fract);
 void			print_menu(t_base *fract);
-void			julia(int x, int y, t_base *fract);
 void			usage();
 void			wtf(int x, int y, t_base *fract);
 void			zoom(int button ,int x, int y, t_base *fract);

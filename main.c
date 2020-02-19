@@ -6,7 +6,7 @@
 /*   By: wquirrel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/24 15:43:37 by wquirrel          #+#    #+#             */
-/*   Updated: 2020/01/24 15:43:39 by wquirrel         ###   ########.fr       */
+/*   Updated: 2020/02/18 17:50:18 by wquirrel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,12 +16,14 @@ double 	inter(double s, double f, double zoom)
 {
 	double d;
 	d = f - s;
+	printf("d:%f\n", d);
 	return (s + d * zoom);
 }
 
 void	zoom(int button ,int x, int y, t_base *fract)
 {
 	t_complex mouse;
+
 	double zoom;
 		mouse = init_complex(
 				(double)x / (WIDTH / (fract->max.re - fract->min.re))
@@ -29,9 +31,17 @@ void	zoom(int button ,int x, int y, t_base *fract)
 				(double)y / (HEIGHT / (fract->max.im - fract->min.im))
 				* -1 + fract->max.im);
 		if (button == MOUSE_SCROLL_DOWN)
-			zoom = 1.2;
-		else if(button == MOUSE_SCROLL_UP)
-			zoom = 0.8;
+		{
+			fract->z--;
+			zoom = 1.15;
+			fract->iter.max_i--;
+		}
+		else if(button == MOUSE_SCROLL_UP && fract->z < 245)
+		{
+			fract->z++;
+			zoom = 0.87;
+			fract->iter.max_i++;
+		}
 		else if(button == MLB)
 		{
 			fract->is_pressed = 0;
@@ -43,11 +53,12 @@ void	zoom(int button ,int x, int y, t_base *fract)
 			return ;
 		}
 		else
-			return ;
+			return;
 		fract->min.re = inter(mouse.re, fract->min.re, zoom);
 		fract->min.im = inter(mouse.im, fract->min.im, zoom);
 		fract->max.re = inter(mouse.re, fract->max.re, zoom);
 		fract->max.im = inter(mouse.im, fract->max.im, zoom);
+		printf("%d\n", fract->z);
 		multip(fract);
 }
 
@@ -73,6 +84,7 @@ void		init(t_base *fract)
 			, &fract->img.bpp, &fract->img.size_l, &fract->img.endian);
 	fract->shift_y = 0;
 	fract->shift_x = 0;
+	fract->z = 1;
 //	fract->zoom_re = 0;
 //	fract->zoom_im = 0;
 	fract->min = init_complex(-2.0, -2.0);

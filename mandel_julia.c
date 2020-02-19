@@ -27,14 +27,7 @@ int		julia_motion(int x, int y, t_base *fract)
 void 	mandelbrot(int x, int y, t_base *fract)
 {
 	t_complex z;
-//	t_complex factor;
-//	t_complex c;
 
-//	factor = init_complex((fract->max.re - fract->min.re) / (WIDTH - 1)
-//			, (fract->max.im - fract->min .im) / (HEIGHT - 1));
-//	fract->iter.max_i = 50;
-//	fract->c.im = fract->max.im - y * factor.im + fract->shift_y;
-//	fract->c.re = fract->min.re + x * factor.re + fract->shift_x;
 	z = init_complex(fract->c.re, fract->c.im);
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
@@ -50,14 +43,7 @@ void 	mandelbrot(int x, int y, t_base *fract)
 void julia(int x, int y, t_base *fract)
 {
 	t_complex z;
-//	t_complex factor;
-//	t_complex c;
 
-//	factor = init_complex((fract->max.re - fract->min.re) / (WIDTH - 1)
-//			, (fract->max.im - fract->min .im) / (HEIGHT - 1));
-//	fract->iter.max_i = 50;
-//	fract->c.im = fract->max.im - y * factor.im + fract->shift_y;
-//	fract->c.re = fract->min.re + x * factor.re + fract->shift_x;
 	z = init_complex(fract->c.re,fract->c.im);
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
@@ -71,34 +57,18 @@ void julia(int x, int y, t_base *fract)
 	put_dot(x, y, fract->iter, fract);
 }
 
-/*
-void julia(int x, int y, t_base *fract)
+void	perpendicular_mandelbrot(int x, int y, t_base *fract)
 {
-	t_complex factor;
-	t_complex c;
 	t_complex z;
-//	t_complex k;
-	int i;
 
-	fract->min = init_complex(fract->min.re + fract->shift_x, fract->min.im + fract->shift_y);
-	fract->max.re += fract->shift_x;
-	fract->max.im += fract->shift_y;
-	factor = init_complex((fract->max.re - fract->min.re) / (WIDTH - 1)
-			, (fract->max.im - fract->min .im) / (HEIGHT - 1));
-	fract->iter.max_i = 50;
-	c.im = fract->max.im - y * factor.im;
-	c.re = fract->min.re + x * factor.re;
-//	k = init_complex(-0.4, 0.6);
-//	k = init_complex(4 * ((double) x / WIDTH - 0.5)
-//			, 4 * ((double)(HEIGHT - y) / HEIGHT - 0.5));
-	z = init_complex(c.re, c.im);
-	i = 0;
-	while (pow(z.re, 2.0) + pow(z.im, 2.0) <= 4	&& i < fract->iter.max_i)
+	z = init_complex(fract->c.re, fract->c.im);
+	fract->iter.i = 0;
+	while (z.re * z.re + z.im * z.im <= 4
+		   && fract->iter.i < fract->iter.max_i)
 	{
-		z = init_complex(
-				pow(z.re, 2.0) - pow(z.im, 2.0) + fract->k.re,
-				2.0 * z.re * z.im + fract->k.im);
-		i++;
+		z = init_complex(z.re * z.re - z.im * z.im + fract->c.re
+				, -2.0 * fabs(z.re) * z.im + fract->c.im);
+		fract->iter.i++;
 	}
 	put_dot(x, y, fract->iter, fract);
-}*/
+}
