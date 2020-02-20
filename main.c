@@ -12,56 +12,6 @@
 
 #include "fractol.h"
 
-double 	inter(double s, double f, double zoom)
-{
-	double d;
-	d = f - s;
-	printf("d:%f\n", d);
-	return (s + d * zoom);
-}
-
-void	zoom(int button ,int x, int y, t_base *fract)
-{
-	t_complex mouse;
-
-	double zoom;
-		mouse = init_complex(
-				(double)x / (WIDTH / (fract->max.re - fract->min.re))
-				+ fract->min.re,
-				(double)y / (HEIGHT / (fract->max.im - fract->min.im))
-				* -1 + fract->max.im);
-		if (button == MOUSE_SCROLL_DOWN)
-		{
-			fract->z--;
-			zoom = 1.15;
-			fract->iter.max_i--;
-		}
-		else if(button == MOUSE_SCROLL_UP && fract->z < 245)
-		{
-			fract->z++;
-			zoom = 0.87;
-			fract->iter.max_i++;
-		}
-		else if(button == MLB)
-		{
-			fract->is_pressed = 0;
-			return ;
-		}
-		else if(button == MRB)
-		{
-			fract->is_pressed = 1;
-			return ;
-		}
-		else
-			return;
-		fract->min.re = inter(mouse.re, fract->min.re, zoom);
-		fract->min.im = inter(mouse.im, fract->min.im, zoom);
-		fract->max.re = inter(mouse.re, fract->max.re, zoom);
-		fract->max.im = inter(mouse.im, fract->max.im, zoom);
-		printf("%d\n", fract->z);
-		multip(fract);
-}
-
 void	img_new(t_base *fract)
 {
 	fract->img.img_ptr = mlx_new_image(fract->mlx.mlx, WIDTH, HEIGHT);
@@ -75,18 +25,11 @@ int		hook_exit(void *param)
 	exit(0);
 }
 
-void		init(t_base *fract)
+void		init_f(t_base *fract)
 {
-	fract->mlx.mlx = mlx_init();
-	fract->mlx.win = mlx_new_window(fract->mlx.mlx, WIDTH, HEIGHT, "Fractol");
-	fract->img.img_ptr = mlx_new_image(fract->mlx.mlx, WIDTH, HEIGHT);
-	fract->img.data = (int *)mlx_get_data_addr(fract->img.img_ptr
-			, &fract->img.bpp, &fract->img.size_l, &fract->img.endian);
 	fract->shift_y = 0;
 	fract->shift_x = 0;
 	fract->z = 1;
-//	fract->zoom_re = 0;
-//	fract->zoom_im = 0;
 	fract->min = init_complex(-2.0, -2.0);
 	fract->max.re = 2.0;
 	fract->max.im = fract->min.im + (fract->max.re - fract->min.re) * HEIGHT / WIDTH;
@@ -94,9 +37,11 @@ void		init(t_base *fract)
 	fract->iter.max_i = 50;
 	fract->k = init_complex(-0.4, 0.6);
 	fract->is_pressed = 1;
+	fract->f1_pressed = -1;
 	fract->rgb.r = 0;
 	fract->rgb.g = 0;
 	fract->rgb.b = 0;
+	fract->pallet = 1;
 }
 
 int main(int ac, char **av)
@@ -110,7 +55,10 @@ int main(int ac, char **av)
 	}
 	fract.name = av[1];
 	choose_f(&fract);
-	init(&fract);
+	fract.mlx.mlx = mlx_init();
+	fract.mlx.win = mlx_new_window(fract.mlx.mlx, WIDTH, HEIGHT, "Fractol");
+	init_f(&fract);
+	img_new(&fract);
 //	mandelbrot(&fract);
 //	draw(&fract);
 	multip(&fract);

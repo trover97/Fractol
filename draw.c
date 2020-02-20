@@ -12,6 +12,23 @@
 
 #include "fractol.h"
 
+/*int		choose_pallet(int r, int g, int b, t_base *fract)
+{
+	int	pallet[3];
+
+	if(fract->pallet == 1)
+		return (r << 16 | g << 8 | b);
+	else if(fract->pallet == 2)
+		return (g << 16 | b << 8 | r);
+	else if(fract->pallet == 3)
+		return (b << 16 | r << 8 | g);
+	else if(fract->pallet >= 4)
+	{
+		fract->pallet = 1;
+		return (r << 16 | g << 8 | b);
+	}
+}*/
+
 int		color(int iteration, int max_iteration, t_base *fract)
 {
 	double t;
@@ -24,9 +41,14 @@ int		color(int iteration, int max_iteration, t_base *fract)
 	red = (int) (9 * (1 - t) * t * t * t * 255) + fract->rgb.r;
 	green = (int) (15 * (1 - t) * (1 - t) * t * t * 255) + fract->rgb.g;
 	blue = (int) (8.5 * (1 - t) * (1 - t) * (1 - t) * t * 255) + fract->rgb.b;
-	return (iteration < max_iteration) ? (red << 16 | green << 8 | blue) : 0;
+//	return (iteration < max_iteration) ? (red << 16 | green << 8 | blue) : 0;
+	if(fract->pallet == 1)
+		return (red << 16 | green << 8 | blue);
+	else if(fract->pallet == 2)
+		return (green << 16 | blue << 8 | red);
+	else if(fract->pallet == 3)
+		return (blue << 16 | red << 8 | green);
 }
-
 
 void		put_dot(int x, int y, t_iter iter, t_base *fract)
 {
@@ -41,27 +63,3 @@ void		put_dot(int x, int y, t_iter iter, t_base *fract)
 	fract->img.data[++i] = c >> 8;
 	fract->img.data[++i] = c >> 16;
 }
-
-/*
-void		draw(t_base *fract)
-{
-	int y;
-	int x;
-	t_iter iter;
-
-	mlx_destroy_image(fract->mlx.mlx, fract->img.img_ptr);
-	img_new(fract);
-	y = 0;
-	while (y < HEIGHT)
-	{
-		x = 0;
-		while (x < WIDTH)
-		{
-			mandelbrot(x, y, fract);
-//			julia(x, y, fract);
-			x++;
-		}
-		y++;
-	}
-	mlx_put_image_to_window(fract->mlx.mlx, fract->mlx.win, fract->img.img_ptr, 0, 0);
-}*/

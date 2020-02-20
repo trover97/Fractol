@@ -45,6 +45,7 @@
 */
 
 # define ESC				53
+# define F1					122
 # define R					15
 # define G					5
 # define B					11
@@ -57,6 +58,16 @@
 # define ARROW_RIGHT		124
 # define MOUSE_SCROLL_UP	4
 # define MOUSE_SCROLL_DOWN	5
+# define NUM_PAD_0			82
+# define NUM_PAD_1			83
+# define NUM_PAD_2			84
+# define NUM_PAD_3			85
+# define NUM_PAD_4			86
+# define NUM_PAD_5			87
+# define NUM_PAD_6			88
+# define NUM_PAD_7			89
+# define NUM_PAD_8			91
+# define NUM_PAD_9			92
 # define NUM_PAD_PLUS		69
 # define NUM_PAD_MINUS		78
 # define MAIN_PAD_PLUS		24
@@ -80,9 +91,9 @@
 
 typedef struct	s_color
 {
-	uint8_t r;
-	uint8_t g;
-	uint8_t b;
+	int8_t r;
+	int8_t g;
+	int8_t b;
 }				t_color;
 
 typedef struct	s_potok
@@ -132,8 +143,9 @@ typedef struct	s_base
 	t_color rgb;
 	char *name;
 	uint8_t fractal;
-	uint_fast8_t is_pressed;
-//	int color;
+	uint_fast8_t	is_pressed;
+	int_fast8_t		f1_pressed;
+	uint_fast8_t		pallet;
 //	double zoom_re;
 //	double zoom_im;
 	double	shift_y;
@@ -146,8 +158,8 @@ void			burning_ship(int x, int y, t_base *fract);
 void			burning_julia(int x, int y, t_base *fract);
 void 			choose_f(t_base *fract);
 void			douady_rabbit(int x, int y, t_base *fract);
-void			draw(t_base *fract);
 void			img_new(t_base *fract);
+void			init_f(t_base *fract);
 t_complex		init_complex(double re, double im);
 void			julia(int x, int y, t_base *fract);
 int				julia_motion(int x, int y, t_base *fract);

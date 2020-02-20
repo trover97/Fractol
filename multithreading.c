@@ -42,7 +42,8 @@ void	multip(t_base *fract)
 	t_base fr[THREADS];
 
 	i = 0;
-	mlx_destroy_image(fract->mlx.mlx, fract->img.img_ptr);
+	if(fract->img.img_ptr)
+		mlx_destroy_image(fract->mlx.mlx, fract->img.img_ptr);
 	img_new(fract);
 	while(i < THREADS)
 	{

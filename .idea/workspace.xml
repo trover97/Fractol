@@ -14,17 +14,16 @@
     <list default="true" id="df39199a-6c7c-428a-b026-4e185c5ffeef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/complex.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/complex.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/draw.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/draw.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Fractol" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Fractol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/control.c" beforeDir="false" afterPath="$PROJECT_DIR$/control.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draw.c" beforeDir="false" afterPath="$PROJECT_DIR$/draw.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fractals.c" beforeDir="false" afterPath="$PROJECT_DIR$/fractals.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fractol.h" beforeDir="false" afterPath="$PROJECT_DIR$/fractol.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mandel_julia.c" beforeDir="false" afterPath="$PROJECT_DIR$/mandel_julia.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.c" beforeDir="false" afterPath="$PROJECT_DIR$/menu.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading.c" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/utils.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Fractol" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Burning_julia" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Fractol" TARGET_NAME="Fractol" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Fractol" RUN_TARGET_NAME="Fractol">
+    <configuration name="Fractol" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="B_julia" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Fractol" TARGET_NAME="Fractol" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Fractol" RUN_TARGET_NAME="Fractol">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -112,7 +111,9 @@
       <workItem from="1582021065028" duration="316000" />
       <workItem from="1582021399781" duration="342000" />
       <workItem from="1582021929636" duration="9670000" />
-      <workItem from="1582125472794" duration="9462000" />
+      <workItem from="1582125472794" duration="9720000" />
+      <workItem from="1582191530224" duration="11168000" />
+      <workItem from="1582210778673" duration="1287000" />
     </task>
     <task id="LOCAL-00001" summary="add new struct">
       <created>1579963169031</created>
@@ -191,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581607520521</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="little bit faster (different types / stdint.h) + 3 more fractals">
+      <created>1582140103891</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582140103891</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,37 +229,38 @@
     <MESSAGE value="Error management + utils.c" />
     <MESSAGE value="Choosing fractals + Julia(with mouse)" />
     <MESSAGE value="Thinking on a new fractals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thinking on a new fractals" />
+    <MESSAGE value="little bit faster (different types / stdint.h) + 3 more fractals" />
+    <option name="LAST_COMMIT_MESSAGE" value="little bit faster (different types / stdint.h) + 3 more fractals" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582137118344">
+    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582208631398">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1582137118344" />
+    <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1582208631398" />
     <state x="1243" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580204710960">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1243" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1580204710960" />
-    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1581607520213">
+    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1582140103518">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1581607520213" />
-    <state width="1294" height="271" key="GridCell.Tab.0.bottom" timestamp="1582140013317">
+    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1582140103518" />
+    <state width="1400" height="271" key="GridCell.Tab.0.bottom" timestamp="1582211960471">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1294" height="271" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1582140013317" />
-    <state width="1294" height="271" key="GridCell.Tab.0.center" timestamp="1582140013316">
+    <state width="1400" height="271" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1582211960471" />
+    <state width="1400" height="271" key="GridCell.Tab.0.center" timestamp="1582211960470">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1294" height="271" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1582140013316" />
-    <state width="1294" height="271" key="GridCell.Tab.0.left" timestamp="1582140013315">
+    <state width="1400" height="271" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1582211960470" />
+    <state width="1400" height="271" key="GridCell.Tab.0.left" timestamp="1582211960470">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1294" height="271" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1582140013315" />
-    <state width="1294" height="271" key="GridCell.Tab.0.right" timestamp="1582140013317">
+    <state width="1400" height="271" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1582211960470" />
+    <state width="1400" height="271" key="GridCell.Tab.0.right" timestamp="1582211960470">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1294" height="271" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1582140013317" />
+    <state width="1400" height="271" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1582211960470" />
     <state width="1358" height="271" key="GridCell.Tab.1.bottom" timestamp="1581518698165">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -288,10 +297,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1587" y="430" width="540" height="524" key="StructurePopup/0.23.2560.1337@0.23.2560.1337" timestamp="1580132283915" />
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1581607525517">
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1582140106281">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1581607525517" />
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1582140106281" />
     <state x="936" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1582020992062">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -314,7 +323,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>106</line>
+          <line>51</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">

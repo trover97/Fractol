@@ -26,9 +26,9 @@ void 			choose_f(t_base *fract)
 		fract->fractal = 5;
 	else if(ft_strequ("Biomorph", fract->name))
 		fract->fractal = 6;
-	else if(ft_strequ("Perpendicular_mandelbrot", fract->name))
+	else if(ft_strequ("P_mandelbrot", fract->name))
 		fract->fractal = 7;
-	else if(ft_strequ("Burning_julia", fract->name))
+	else if(ft_strequ("B_julia", fract->name))
 		fract->fractal = 8;
 	else
 	{
@@ -40,7 +40,7 @@ void 			choose_f(t_base *fract)
 void	usage()
 {
 	ft_putstr("Usage: ./fractol [fractal]\n");
-	ft_putstr("1. Mandelbrot\n2. Julia\n3. Burning_ship\n4. Mandelbar\n5. Douady_rabbit\n6. Biomorph");
+	ft_putstr("1. Mandelbrot\n2. Julia\n3. Burning_ship\n4. Mandelbar\n5. Douady_rabbit\n6. Biomorph 7.P_mandelbrot\n 8.B_julia");
 }
 
 void	wtf(int x, int y, t_base *fract)
