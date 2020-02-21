@@ -105,9 +105,7 @@ int key_press(int keycode, t_base *fract)
 	else if(keycode == NUM_PAD_0)
 		init_f(fract);
 	else if(keycode == F1)
-	{
 		fract->f1_pressed *= -1;
-	}
 	multip(fract);
 	return(0);
 }

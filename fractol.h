@@ -17,7 +17,6 @@
 # include "mlx.h"
 # include <math.h>
 # include <pthread.h>
-# include <stdint.h>
 #	include <stdio.h> // KILL ME
 
 /*
@@ -34,11 +33,13 @@
 # define WHITE 0xffffff
 # define BLACK 0x000000
 # define RED 0xe80c0c
+# define PURPLE 0xDF678C
 # define MIDDLE_GRAY 0x7a7a7a
 # define VERY_DARK_GRAY 0x0d0d0d
 # define ORANGE 0xFFA500
 # define MANN_CO_ORANGE 0xCF7336
 # define AUSTRALIUM_GOLD 0xE7B53B
+# define THUNDER_CLOUD 0x505160
 
 /*
 ** Keys
@@ -91,21 +92,21 @@
 
 typedef struct	s_color
 {
-	int8_t r;
-	int8_t g;
-	int8_t b;
+	char r;
+	int g;
+	int b;
 }				t_color;
 
 typedef struct	s_potok
 {
-	uint16_t s_line;
-	uint16_t f_line;
+	unsigned int s_line;
+	unsigned int f_line;
 }				t_potok;
 
 typedef	struct	s_iter
 {
-	int16_t i;
-	int16_t max_i;
+	int i;
+	int max_i;
 }				t_iter;
 
 typedef	struct	s_complex
@@ -138,14 +139,14 @@ typedef struct	s_base
 	t_complex max;
 	t_complex k;
 	t_complex c;
-	t_complex factor;
-	int16_t z;
+//	t_complex factor;
+	int z;
 	t_color rgb;
 	char *name;
-	uint8_t fractal;
-	uint_fast8_t	is_pressed;
-	int_fast8_t		f1_pressed;
-	uint_fast8_t		pallet;
+	char fractal;
+	char	is_pressed;
+	char	f1_pressed;
+	int		pallet;
 //	double zoom_re;
 //	double zoom_im;
 	double	shift_y;

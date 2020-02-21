@@ -19,12 +19,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Fractol" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Fractol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/control.c" beforeDir="false" afterPath="$PROJECT_DIR$/control.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draw.c" beforeDir="false" afterPath="$PROJECT_DIR$/draw.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fractol.h" beforeDir="false" afterPath="$PROJECT_DIR$/fractol.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu.c" beforeDir="false" afterPath="$PROJECT_DIR$/menu.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithreading.c" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/utils.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +109,9 @@
       <workItem from="1582021929636" duration="9670000" />
       <workItem from="1582125472794" duration="9720000" />
       <workItem from="1582191530224" duration="11168000" />
-      <workItem from="1582210778673" duration="1287000" />
+      <workItem from="1582210778673" duration="1346000" />
+      <workItem from="1582223467410" duration="321000" />
+      <workItem from="1582290850006" duration="3475000" />
     </task>
     <task id="LOCAL-00001" summary="add new struct">
       <created>1579963169031</created>
@@ -199,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582140103891</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Menu(4/5) + little optimisation">
+      <created>1582212665953</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582212665953</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +235,8 @@
     <MESSAGE value="Choosing fractals + Julia(with mouse)" />
     <MESSAGE value="Thinking on a new fractals" />
     <MESSAGE value="little bit faster (different types / stdint.h) + 3 more fractals" />
-    <option name="LAST_COMMIT_MESSAGE" value="little bit faster (different types / stdint.h) + 3 more fractals" />
+    <MESSAGE value="Menu(4/5) + little optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu(4/5) + little optimisation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1293" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582208631398">
@@ -241,26 +247,26 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1243" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1580204710960" />
-    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1582140103518">
+    <state x="1451" y="292" key="CommitChangelistDialog2" timestamp="1582212665359">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1582140103518" />
-    <state width="1400" height="271" key="GridCell.Tab.0.bottom" timestamp="1582211960471">
+    <state x="1451" y="292" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1582212665359" />
+    <state width="1400" height="271" key="GridCell.Tab.0.bottom" timestamp="1582294790060">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1400" height="271" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1582211960471" />
-    <state width="1400" height="271" key="GridCell.Tab.0.center" timestamp="1582211960470">
+    <state width="1400" height="271" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1582294790060" />
+    <state width="1400" height="271" key="GridCell.Tab.0.center" timestamp="1582294790059">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1400" height="271" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1582211960470" />
-    <state width="1400" height="271" key="GridCell.Tab.0.left" timestamp="1582211960470">
+    <state width="1400" height="271" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1582294790059" />
+    <state width="1400" height="271" key="GridCell.Tab.0.left" timestamp="1582294790058">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1400" height="271" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1582211960470" />
-    <state width="1400" height="271" key="GridCell.Tab.0.right" timestamp="1582211960470">
+    <state width="1400" height="271" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1582294790058" />
+    <state width="1400" height="271" key="GridCell.Tab.0.right" timestamp="1582294790059">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1400" height="271" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1582211960470" />
+    <state width="1400" height="271" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1582294790059" />
     <state width="1358" height="271" key="GridCell.Tab.1.bottom" timestamp="1581518698165">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -297,10 +303,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1587" y="430" width="540" height="524" key="StructurePopup/0.23.2560.1337@0.23.2560.1337" timestamp="1580132283915" />
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1582140106281">
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2" timestamp="1582212668749">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1582140106281" />
+    <state x="1457" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1582212668749" />
     <state x="936" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1582020992062">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -323,7 +329,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>51</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">

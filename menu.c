@@ -39,7 +39,7 @@ void menu1(t_base *fract, int color)
 	mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, color,
 				   "Reset: Num pad 0");
 	mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, color,
-				   "Change channel(RGB):");
+				   "Change channel value(RGB):");
 	mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, color,
 				   "  R G B");
 	mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, color,
