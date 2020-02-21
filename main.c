@@ -38,8 +38,8 @@ void		init_f(t_base *fract)
 	fract->k = init_complex(-0.4, 0.6);
 	fract->is_pressed = 1;
 	fract->f1_pressed = -1;
-	fract->rgb.r = 0;
-	fract->rgb.g = 0;
+	fract->rgb.r = 16;
+	fract->rgb.g = 8;
 	fract->rgb.b = 0;
 	fract->pallet = 1;
 }

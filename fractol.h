@@ -23,8 +23,8 @@
 ** Window
 */
 
-# define WIDTH 1000
-# define HEIGHT 1000
+# define WIDTH 900
+# define HEIGHT 900
 
 /*
 ** Colors
@@ -92,9 +92,9 @@
 
 typedef struct	s_color
 {
-	char r;
-	int g;
-	int b;
+	 unsigned char r;
+	 unsigned char g;
+	 unsigned char b;
 }				t_color;
 
 typedef struct	s_potok
@@ -139,16 +139,13 @@ typedef struct	s_base
 	t_complex max;
 	t_complex k;
 	t_complex c;
-//	t_complex factor;
 	int z;
 	t_color rgb;
 	char *name;
 	char fractal;
 	char	is_pressed;
 	char	f1_pressed;
-	int		pallet;
-//	double zoom_re;
-//	double zoom_im;
+	char	pallet;
 	double	shift_y;
 	double	shift_x;
 	t_potok thr;

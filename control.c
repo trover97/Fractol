@@ -85,11 +85,23 @@ int key_press(int keycode, t_base *fract)
 			fract->iter.max_i = 400;
 	}
 	else if(keycode == R)
+	{
 		fract->rgb.r += 1;
+		if (fract->rgb.r > 16)
+			fract->rgb.r = 0;
+	}
 	else if(keycode == G)
+	{
 		fract->rgb.g += 1;
+		if (fract->rgb.g > 16)
+			fract->rgb.g = 0;
+	}
 	else if(keycode == B)
+	{
 		fract->rgb.b += 1;
+		if (fract->rgb.b > 16)
+			fract->rgb.b = 0;
+	}
 	else if(keycode == MAIN_PAD_PLUS)
 	{
 		fract->pallet += 1;
