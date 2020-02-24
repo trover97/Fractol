@@ -42,6 +42,7 @@ void		init_f(t_base *fract)
 	fract->rgb.g = 8;
 	fract->rgb.b = 0;
 	fract->pallet = 1;
+	fract->m_color = WHITE;
 }
 
 int main(int ac, char **av)

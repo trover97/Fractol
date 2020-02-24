@@ -71,6 +71,16 @@
 # define NUM_PAD_9			92
 # define NUM_PAD_PLUS		69
 # define NUM_PAD_MINUS		78
+# define MAIN_PAD_0			29
+# define MAIN_PAD_1			18
+# define MAIN_PAD_2			19
+# define MAIN_PAD_3			20
+# define MAIN_PAD_4			21
+# define MAIN_PAD_5			23
+# define MAIN_PAD_6			22
+# define MAIN_PAD_7			26
+# define MAIN_PAD_8			28
+# define MAIN_PAD_9			25
 # define MAIN_PAD_PLUS		24
 # define MAIN_PAD_MINUS		27
 
@@ -141,6 +151,7 @@ typedef struct	s_base
 	t_complex c;
 	int z;
 	t_color rgb;
+	int m_color;
 	char *name;
 	char fractal;
 	char	is_pressed;

@@ -60,6 +60,32 @@ void	zoom(int button ,int x, int y, t_base *fract)
 	multip(fract);
 }
 
+int	key_press1(int keycode, t_base *fract)
+{
+	if(keycode == MAIN_PAD_1 || keycode == MAIN_PAD_2 || keycode == MAIN_PAD_3
+	|| keycode == MAIN_PAD_4 || keycode == MAIN_PAD_5 || keycode == MAIN_PAD_6
+	|| keycode == MAIN_PAD_7 || keycode == MAIN_PAD_8)
+	{
+		if (keycode == MAIN_PAD_1)
+			fract->fractal = 1;
+		else if (keycode == MAIN_PAD_2)
+			fract->fractal = 2;
+		else if (keycode == MAIN_PAD_3)
+			fract->fractal = 3;
+		else if (keycode == MAIN_PAD_4)
+			fract->fractal = 4;
+		else if (keycode == MAIN_PAD_5)
+			fract->fractal = 5;
+		else if (keycode == MAIN_PAD_6)
+			fract->fractal = 6;
+		else if (keycode == MAIN_PAD_7)
+			fract->fractal = 7;
+		else
+			fract->fractal = 8;
+		init_f(fract);
+	}
+}
+
 int key_press(int keycode, t_base *fract)
 {
 	if(keycode == ESC)
@@ -118,6 +144,9 @@ int key_press(int keycode, t_base *fract)
 		init_f(fract);
 	else if(keycode == F1)
 		fract->f1_pressed *= -1;
+	else if(keycode == M)
+		fract->m_color = fract->m_color == BLACK ? WHITE : BLACK;
+	key_press1(keycode, fract);
 	multip(fract);
 	return(0);
 }

@@ -56,27 +56,29 @@ void menu1(t_base *fract, int color)
 				   "  MLB: freeze; MRB: unfreeze");
 	mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, color,
 				   "  Mouse movement");
+	mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, color,
+				   "Menu color: M");
+	mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, color,
+				   "Fractals: Main pad 1 - 2");
 }
 
 void	print_menu(t_base *fract)
 {
 	int y;
-	int color;
 
 	y = 0;
-	color = AUSTRALIUM_GOLD;
 	if(fract->f1_pressed < 0)
 	{
-		mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, color,
+		mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, fract->m_color,
 					   "Press F1 for Help");
-		mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, color,
+		mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, fract->m_color,
 					   "Iteration:");
-		mlx_string_put(fract->mlx.mlx, fract->mlx.win, 120, y, color,
+		mlx_string_put(fract->mlx.mlx, fract->mlx.win, 120, y, fract->m_color,
 					   ft_itoa(fract->iter.max_i));
 	}
 	else if(fract->f1_pressed > 0)
 	{
-		menu1(fract, color);
-		menu2(fract, color);
+		menu1(fract, fract->m_color);
+		menu2(fract, fract->m_color);
 	}
 }
