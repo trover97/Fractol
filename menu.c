@@ -59,7 +59,7 @@ void menu1(t_base *fract, int color)
 	mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, color,
 				   "Menu color: M");
 	mlx_string_put(fract->mlx.mlx, fract->mlx.win, 15, y += 20, color,
-				   "Fractals: Main pad 1 - 2");
+				   "Fractals: Main pad 1 - 8");
 }
 
 void	print_menu(t_base *fract)
