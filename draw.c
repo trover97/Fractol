@@ -22,12 +22,6 @@ int		color(int iteration, int max_iteration, t_base *fract)
 	c[0] = (int) (9 * (1 - t) * t * t * t * 255);
 	c[1] = (int) (15 * (1 - t) * (1 - t) * t * t * 255);
 	c[2] = (int) (8.5 * (1 - t) * (1 - t) * (1 - t) * t * 255);
-/*
-	c[0] = (int) (9 * (1 - t) * t * t * t * 255) + fract->rgb.r;
-	c[1] = (int) (15 * (1 - t) * (1 - t) * t * t * 255) + fract->rgb.g;
-	c[2] = (int) (8.5 * (1 - t) * (1 - t) * (1 - t) * t * 255) + fract->rgb.b;
-*/
-//	return (iteration < max_iteration) ? (red << 16 | green << 8 | blue) : 0;
 	if(fract->pallet == 1)
 		return ((iteration < max_iteration) ? (c[0] << fract->rgb.r | c[1] << fract->rgb.g | c[2] << fract->rgb.b): 0);
 	else if(fract->pallet == 2)

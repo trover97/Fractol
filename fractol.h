@@ -180,7 +180,7 @@ void			*part_of_fract(void *param);
 void			perpendicular_mandelbrot(int x, int y, t_base *fract);
 void			put_dot(int x, int y, t_iter iter, t_base *fract);
 void			print_menu(t_base *fract);
-void			usage();
+void			usage(int ac);
 void			wtf(int x, int y, t_base *fract);
 void			zoom(int button ,int x, int y, t_base *fract);
 

@@ -32,15 +32,21 @@ void 			choose_f(t_base *fract)
 		fract->fractal = 8;
 	else
 	{
-		usage();
+		usage(1);
 		exit(EXIT_FAILURE);
 	}
 }
 
-void	usage()
+void	usage(int ac)
 {
-	ft_putstr("Usage: ./fractol [fractal]\n");
-	ft_putstr("1. Mandelbrot\n2. Julia\n3. Burning_ship\n4. Mandelbar\n5. Douady_rabbit\n6. Biomorph 7.P_mandelbrot\n 8.B_julia");
+	if(ac < 2)
+	{
+		ft_putstr("Usage: ./fractol [fractal]\n");
+		ft_putstr(
+				"1. Mandelbrot\n2. Julia\n3. Burning_ship\n4. Mandelbar\n5. Douady_rabbit\n6. Biomorph \n7. P_mandelbrot \n8. B_julia");
+	}
+	else
+		ft_putstr("Using multiple windows not supported!\n");
 }
 
 void	wtf(int x, int y, t_base *fract)

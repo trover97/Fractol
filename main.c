@@ -51,7 +51,7 @@ int main(int ac, char **av)
 
 	if(ac != 2)
 	{
-		usage();
+		usage(ac);
 		exit(EXIT_FAILURE);
 	}
 	fract.name = av[1];
