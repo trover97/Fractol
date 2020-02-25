@@ -12,23 +12,23 @@
 
 #include "fractol.h"
 
-void 			choose_f(t_base *fract)
+void	choose_f(t_base *fract)
 {
-	if(ft_strequ("Mandelbrot", fract->name))
+	if (ft_strequ("Mandelbrot", fract->name))
 		fract->fractal = 1;
-	else if(ft_strequ("Julia", fract->name))
+	else if (ft_strequ("Julia", fract->name))
 		fract->fractal = 2;
-	else if(ft_strequ("Burning_ship", fract->name))
+	else if (ft_strequ("Burning_ship", fract->name))
 		fract->fractal = 3;
-	else if(ft_strequ("Mandelbar", fract->name))
+	else if (ft_strequ("Mandelbar", fract->name))
 		fract->fractal = 4;
-	else if(ft_strequ("Douady_rabbit", fract->name))
+	else if (ft_strequ("Douady_rabbit", fract->name))
 		fract->fractal = 5;
-	else if(ft_strequ("Biomorph", fract->name))
+	else if (ft_strequ("Biomorph", fract->name))
 		fract->fractal = 6;
-	else if(ft_strequ("P_mandelbrot", fract->name))
+	else if (ft_strequ("P_mandelbrot", fract->name))
 		fract->fractal = 7;
-	else if(ft_strequ("B_julia", fract->name))
+	else if (ft_strequ("B_julia", fract->name))
 		fract->fractal = 8;
 	else
 	{
@@ -39,11 +39,12 @@ void 			choose_f(t_base *fract)
 
 void	usage(int ac)
 {
-	if(ac < 2)
+	if (ac < 2)
 	{
 		ft_putstr("Usage: ./fractol [fractal]\n");
 		ft_putstr(
-				"1. Mandelbrot\n2. Julia\n3. Burning_ship\n4. Mandelbar\n5. Douady_rabbit\n6. Biomorph \n7. P_mandelbrot \n8. B_julia");
+				"1. Mandelbrot\n2. Julia\n3. Burning_ship\n4. Mandelbar\n"
+	"5. Douady_rabbit\n6. Biomorph \n7. P_mandelbrot \n8. B_julia");
 	}
 	else
 		ft_putstr("Using multiple windows not supported!\n");
@@ -54,23 +55,23 @@ void	wtf(int x, int y, t_base *fract)
 	t_complex factor;
 
 	factor = init_complex((fract->max.re - fract->min.re) / (WIDTH - 1)
-			, (fract->max.im - fract->min .im) / (HEIGHT - 1));
+			, (fract->max.im - fract->min.im) / (HEIGHT - 1));
 	fract->c.im = fract->max.im - y * factor.im + fract->shift_y;
 	fract->c.re = fract->min.re + x * factor.re + fract->shift_x;
-	if(fract->fractal == 1)
+	if (fract->fractal == 1)
 		mandelbrot(x, y, fract);
-	else if(fract->fractal == 2)
+	else if (fract->fractal == 2)
 		julia(x, y, fract);
-	else if(fract->fractal == 3)
+	else if (fract->fractal == 3)
 		burning_ship(x, y, fract);
-	else if(fract->fractal == 4)
+	else if (fract->fractal == 4)
 		mandelbar(x, y, fract);
-	else if(fract->fractal == 5)
+	else if (fract->fractal == 5)
 		douady_rabbit(x, y, fract);
-	else if(fract->fractal == 6)
+	else if (fract->fractal == 6)
 		biomorph(x, y, fract);
-	else if(fract->fractal == 7)
+	else if (fract->fractal == 7)
 		perpendicular_mandelbrot(x, y, fract);
-	else if(fract->fractal == 8)
+	else if (fract->fractal == 8)
 		burning_julia(x, y, fract);
 }

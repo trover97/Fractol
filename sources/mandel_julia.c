@@ -14,24 +14,24 @@
 
 int		julia_motion(int x, int y, t_base *fract)
 {
-	if(fract->is_pressed)
+	if (fract->is_pressed)
 	{
 		fract->k = init_complex(
-				4 * ((double) x / WIDTH - 0.5),
-				4 * ((double) (HEIGHT - y) / HEIGHT - 0.5));
+				4 * ((double)x / WIDTH - 0.5),
+				4 * ((double)(HEIGHT - y) / HEIGHT - 0.5));
 		multip(fract);
 	}
 	return (0);
 }
 
-void 	mandelbrot(int x, int y, t_base *fract)
+void	mandelbrot(int x, int y, t_base *fract)
 {
 	t_complex z;
 
 	z = init_complex(fract->c.re, fract->c.im);
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
-		   && fract->iter.i < fract->iter.max_i)
+	&& fract->iter.i < fract->iter.max_i)
 	{
 		z = init_complex(z.re * z.re - z.im * z.im + fract->c.re
 				, 2.0 * z.re * z.im + fract->c.im);
@@ -40,14 +40,14 @@ void 	mandelbrot(int x, int y, t_base *fract)
 	put_dot(x, y, fract->iter, fract);
 }
 
-void julia(int x, int y, t_base *fract)
+void	julia(int x, int y, t_base *fract)
 {
 	t_complex z;
 
-	z = init_complex(fract->c.re,fract->c.im);
+	z = init_complex(fract->c.re, fract->c.im);
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
-		   && fract->iter.i < fract->iter.max_i)
+	&& fract->iter.i < fract->iter.max_i)
 	{
 		z = init_complex(
 				z.re * z.re - z.im * z.im + fract->k.re,
@@ -64,7 +64,7 @@ void	perpendicular_mandelbrot(int x, int y, t_base *fract)
 	z = init_complex(fract->c.re, fract->c.im);
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
-		   && fract->iter.i < fract->iter.max_i)
+	&& fract->iter.i < fract->iter.max_i)
 	{
 		z = init_complex(z.re * z.re - z.im * z.im + fract->c.re
 				, -2.0 * fabs(z.re) * z.im + fract->c.im);

@@ -3,7 +3,7 @@ project(Fractol)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(.)
+include_directories(includes)
 include_directories(libft)
 include_directories(minilibx_macos)
 
@@ -13,6 +13,7 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3 -lmlx -framework OpenGL -framework AppKi
 #set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}" )
 
 add_executable(Fractol
+    includes/fractol.h
     libft/ft_atoi.c
     libft/ft_bzero.c
     libft/ft_countwords.c
@@ -81,5 +82,12 @@ add_executable(Fractol
     libft/ft_wordlen.c
     libft/libft.h
     minilibx_macos/libmlx.a
-    fractol.h
-    main.c mandel_julia.c complex.c draw.c control.c multithreading.c utils.c menu.c fractals.c)
+    sources/complex.c
+    sources/control.c
+    sources/draw.c
+    sources/fractals.c
+    sources/main.c
+    sources/mandel_julia.c
+    sources/menu.c
+    sources/multithreading.c
+    sources/utils.c sources/mouse.c)

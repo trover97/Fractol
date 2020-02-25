@@ -6,5 +6,5 @@ C_FLAGS =  -O3 -lmlx -framework OpenGL -framework AppKit -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/wquirrel/Documents/Fractol/. -I/Users/wquirrel/Documents/Fractol/libft -I/Users/wquirrel/Documents/Fractol/minilibx_macos 
+C_INCLUDES = -I/Users/wquirrel/Documents/Fractol/includes -I/Users/wquirrel/Documents/Fractol/libft -I/Users/wquirrel/Documents/Fractol/minilibx_macos 
 

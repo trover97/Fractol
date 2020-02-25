@@ -123,114 +123,6 @@ Fractol/fast:
 	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/build
 .PHONY : Fractol/fast
 
-complex.o: complex.c.o
-
-.PHONY : complex.o
-
-# target to build an object file
-complex.c.o:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/complex.c.o
-.PHONY : complex.c.o
-
-complex.i: complex.c.i
-
-.PHONY : complex.i
-
-# target to preprocess a source file
-complex.c.i:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/complex.c.i
-.PHONY : complex.c.i
-
-complex.s: complex.c.s
-
-.PHONY : complex.s
-
-# target to generate assembly for a file
-complex.c.s:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/complex.c.s
-.PHONY : complex.c.s
-
-control.o: control.c.o
-
-.PHONY : control.o
-
-# target to build an object file
-control.c.o:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/control.c.o
-.PHONY : control.c.o
-
-control.i: control.c.i
-
-.PHONY : control.i
-
-# target to preprocess a source file
-control.c.i:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/control.c.i
-.PHONY : control.c.i
-
-control.s: control.c.s
-
-.PHONY : control.s
-
-# target to generate assembly for a file
-control.c.s:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/control.c.s
-.PHONY : control.c.s
-
-draw.o: draw.c.o
-
-.PHONY : draw.o
-
-# target to build an object file
-draw.c.o:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/draw.c.o
-.PHONY : draw.c.o
-
-draw.i: draw.c.i
-
-.PHONY : draw.i
-
-# target to preprocess a source file
-draw.c.i:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/draw.c.i
-.PHONY : draw.c.i
-
-draw.s: draw.c.s
-
-.PHONY : draw.s
-
-# target to generate assembly for a file
-draw.c.s:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/draw.c.s
-.PHONY : draw.c.s
-
-fractals.o: fractals.c.o
-
-.PHONY : fractals.o
-
-# target to build an object file
-fractals.c.o:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/fractals.c.o
-.PHONY : fractals.c.o
-
-fractals.i: fractals.c.i
-
-.PHONY : fractals.i
-
-# target to preprocess a source file
-fractals.c.i:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/fractals.c.i
-.PHONY : fractals.c.i
-
-fractals.s: fractals.c.s
-
-.PHONY : fractals.s
-
-# target to generate assembly for a file
-fractals.c.s:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/fractals.c.s
-.PHONY : fractals.c.s
-
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
 .PHONY : libft/ft_atoi.o
@@ -2013,140 +1905,275 @@ libft/ft_wordlen.c.s:
 	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/libft/ft_wordlen.c.s
 .PHONY : libft/ft_wordlen.c.s
 
-main.o: main.c.o
+sources/complex.o: sources/complex.c.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/main.c.s
-.PHONY : main.c.s
-
-mandel_julia.o: mandel_julia.c.o
-
-.PHONY : mandel_julia.o
+.PHONY : sources/complex.o
 
 # target to build an object file
-mandel_julia.c.o:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandel_julia.c.o
-.PHONY : mandel_julia.c.o
+sources/complex.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/complex.c.o
+.PHONY : sources/complex.c.o
 
-mandel_julia.i: mandel_julia.c.i
+sources/complex.i: sources/complex.c.i
 
-.PHONY : mandel_julia.i
+.PHONY : sources/complex.i
 
 # target to preprocess a source file
-mandel_julia.c.i:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandel_julia.c.i
-.PHONY : mandel_julia.c.i
+sources/complex.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/complex.c.i
+.PHONY : sources/complex.c.i
 
-mandel_julia.s: mandel_julia.c.s
+sources/complex.s: sources/complex.c.s
 
-.PHONY : mandel_julia.s
+.PHONY : sources/complex.s
 
 # target to generate assembly for a file
-mandel_julia.c.s:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/mandel_julia.c.s
-.PHONY : mandel_julia.c.s
+sources/complex.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/complex.c.s
+.PHONY : sources/complex.c.s
 
-menu.o: menu.c.o
+sources/control.o: sources/control.c.o
 
-.PHONY : menu.o
+.PHONY : sources/control.o
 
 # target to build an object file
-menu.c.o:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/menu.c.o
-.PHONY : menu.c.o
+sources/control.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/control.c.o
+.PHONY : sources/control.c.o
 
-menu.i: menu.c.i
+sources/control.i: sources/control.c.i
 
-.PHONY : menu.i
+.PHONY : sources/control.i
 
 # target to preprocess a source file
-menu.c.i:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/menu.c.i
-.PHONY : menu.c.i
+sources/control.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/control.c.i
+.PHONY : sources/control.c.i
 
-menu.s: menu.c.s
+sources/control.s: sources/control.c.s
 
-.PHONY : menu.s
+.PHONY : sources/control.s
 
 # target to generate assembly for a file
-menu.c.s:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/menu.c.s
-.PHONY : menu.c.s
+sources/control.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/control.c.s
+.PHONY : sources/control.c.s
 
-multithreading.o: multithreading.c.o
+sources/draw.o: sources/draw.c.o
 
-.PHONY : multithreading.o
+.PHONY : sources/draw.o
 
 # target to build an object file
-multithreading.c.o:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/multithreading.c.o
-.PHONY : multithreading.c.o
+sources/draw.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/draw.c.o
+.PHONY : sources/draw.c.o
 
-multithreading.i: multithreading.c.i
+sources/draw.i: sources/draw.c.i
 
-.PHONY : multithreading.i
+.PHONY : sources/draw.i
 
 # target to preprocess a source file
-multithreading.c.i:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/multithreading.c.i
-.PHONY : multithreading.c.i
+sources/draw.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/draw.c.i
+.PHONY : sources/draw.c.i
 
-multithreading.s: multithreading.c.s
+sources/draw.s: sources/draw.c.s
 
-.PHONY : multithreading.s
+.PHONY : sources/draw.s
 
 # target to generate assembly for a file
-multithreading.c.s:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/multithreading.c.s
-.PHONY : multithreading.c.s
+sources/draw.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/draw.c.s
+.PHONY : sources/draw.c.s
 
-utils.o: utils.c.o
+sources/fractals.o: sources/fractals.c.o
 
-.PHONY : utils.o
+.PHONY : sources/fractals.o
 
 # target to build an object file
-utils.c.o:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/utils.c.o
-.PHONY : utils.c.o
+sources/fractals.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/fractals.c.o
+.PHONY : sources/fractals.c.o
 
-utils.i: utils.c.i
+sources/fractals.i: sources/fractals.c.i
 
-.PHONY : utils.i
+.PHONY : sources/fractals.i
 
 # target to preprocess a source file
-utils.c.i:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/utils.c.i
-.PHONY : utils.c.i
+sources/fractals.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/fractals.c.i
+.PHONY : sources/fractals.c.i
 
-utils.s: utils.c.s
+sources/fractals.s: sources/fractals.c.s
 
-.PHONY : utils.s
+.PHONY : sources/fractals.s
 
 # target to generate assembly for a file
-utils.c.s:
-	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/utils.c.s
-.PHONY : utils.c.s
+sources/fractals.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/fractals.c.s
+.PHONY : sources/fractals.c.s
+
+sources/main.o: sources/main.c.o
+
+.PHONY : sources/main.o
+
+# target to build an object file
+sources/main.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/main.c.o
+.PHONY : sources/main.c.o
+
+sources/main.i: sources/main.c.i
+
+.PHONY : sources/main.i
+
+# target to preprocess a source file
+sources/main.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/main.c.i
+.PHONY : sources/main.c.i
+
+sources/main.s: sources/main.c.s
+
+.PHONY : sources/main.s
+
+# target to generate assembly for a file
+sources/main.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/main.c.s
+.PHONY : sources/main.c.s
+
+sources/mandel_julia.o: sources/mandel_julia.c.o
+
+.PHONY : sources/mandel_julia.o
+
+# target to build an object file
+sources/mandel_julia.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/mandel_julia.c.o
+.PHONY : sources/mandel_julia.c.o
+
+sources/mandel_julia.i: sources/mandel_julia.c.i
+
+.PHONY : sources/mandel_julia.i
+
+# target to preprocess a source file
+sources/mandel_julia.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/mandel_julia.c.i
+.PHONY : sources/mandel_julia.c.i
+
+sources/mandel_julia.s: sources/mandel_julia.c.s
+
+.PHONY : sources/mandel_julia.s
+
+# target to generate assembly for a file
+sources/mandel_julia.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/mandel_julia.c.s
+.PHONY : sources/mandel_julia.c.s
+
+sources/menu.o: sources/menu.c.o
+
+.PHONY : sources/menu.o
+
+# target to build an object file
+sources/menu.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/menu.c.o
+.PHONY : sources/menu.c.o
+
+sources/menu.i: sources/menu.c.i
+
+.PHONY : sources/menu.i
+
+# target to preprocess a source file
+sources/menu.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/menu.c.i
+.PHONY : sources/menu.c.i
+
+sources/menu.s: sources/menu.c.s
+
+.PHONY : sources/menu.s
+
+# target to generate assembly for a file
+sources/menu.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/menu.c.s
+.PHONY : sources/menu.c.s
+
+sources/mouse.o: sources/mouse.c.o
+
+.PHONY : sources/mouse.o
+
+# target to build an object file
+sources/mouse.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/mouse.c.o
+.PHONY : sources/mouse.c.o
+
+sources/mouse.i: sources/mouse.c.i
+
+.PHONY : sources/mouse.i
+
+# target to preprocess a source file
+sources/mouse.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/mouse.c.i
+.PHONY : sources/mouse.c.i
+
+sources/mouse.s: sources/mouse.c.s
+
+.PHONY : sources/mouse.s
+
+# target to generate assembly for a file
+sources/mouse.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/mouse.c.s
+.PHONY : sources/mouse.c.s
+
+sources/multithreading.o: sources/multithreading.c.o
+
+.PHONY : sources/multithreading.o
+
+# target to build an object file
+sources/multithreading.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/multithreading.c.o
+.PHONY : sources/multithreading.c.o
+
+sources/multithreading.i: sources/multithreading.c.i
+
+.PHONY : sources/multithreading.i
+
+# target to preprocess a source file
+sources/multithreading.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/multithreading.c.i
+.PHONY : sources/multithreading.c.i
+
+sources/multithreading.s: sources/multithreading.c.s
+
+.PHONY : sources/multithreading.s
+
+# target to generate assembly for a file
+sources/multithreading.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/multithreading.c.s
+.PHONY : sources/multithreading.c.s
+
+sources/utils.o: sources/utils.c.o
+
+.PHONY : sources/utils.o
+
+# target to build an object file
+sources/utils.c.o:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/utils.c.o
+.PHONY : sources/utils.c.o
+
+sources/utils.i: sources/utils.c.i
+
+.PHONY : sources/utils.i
+
+# target to preprocess a source file
+sources/utils.c.i:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/utils.c.i
+.PHONY : sources/utils.c.i
+
+sources/utils.s: sources/utils.c.s
+
+.PHONY : sources/utils.s
+
+# target to generate assembly for a file
+sources/utils.c.s:
+	$(MAKE) -f CMakeFiles/Fractol.dir/build.make CMakeFiles/Fractol.dir/sources/utils.c.s
+.PHONY : sources/utils.c.s
 
 # Help Target
 help:
@@ -2157,18 +2184,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Fractol"
-	@echo "... complex.o"
-	@echo "... complex.i"
-	@echo "... complex.s"
-	@echo "... control.o"
-	@echo "... control.i"
-	@echo "... control.s"
-	@echo "... draw.o"
-	@echo "... draw.i"
-	@echo "... draw.s"
-	@echo "... fractals.o"
-	@echo "... fractals.i"
-	@echo "... fractals.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
@@ -2367,21 +2382,36 @@ help:
 	@echo "... libft/ft_wordlen.o"
 	@echo "... libft/ft_wordlen.i"
 	@echo "... libft/ft_wordlen.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... mandel_julia.o"
-	@echo "... mandel_julia.i"
-	@echo "... mandel_julia.s"
-	@echo "... menu.o"
-	@echo "... menu.i"
-	@echo "... menu.s"
-	@echo "... multithreading.o"
-	@echo "... multithreading.i"
-	@echo "... multithreading.s"
-	@echo "... utils.o"
-	@echo "... utils.i"
-	@echo "... utils.s"
+	@echo "... sources/complex.o"
+	@echo "... sources/complex.i"
+	@echo "... sources/complex.s"
+	@echo "... sources/control.o"
+	@echo "... sources/control.i"
+	@echo "... sources/control.s"
+	@echo "... sources/draw.o"
+	@echo "... sources/draw.i"
+	@echo "... sources/draw.s"
+	@echo "... sources/fractals.o"
+	@echo "... sources/fractals.i"
+	@echo "... sources/fractals.s"
+	@echo "... sources/main.o"
+	@echo "... sources/main.i"
+	@echo "... sources/main.s"
+	@echo "... sources/mandel_julia.o"
+	@echo "... sources/mandel_julia.i"
+	@echo "... sources/mandel_julia.s"
+	@echo "... sources/menu.o"
+	@echo "... sources/menu.i"
+	@echo "... sources/menu.s"
+	@echo "... sources/mouse.o"
+	@echo "... sources/mouse.i"
+	@echo "... sources/mouse.s"
+	@echo "... sources/multithreading.o"
+	@echo "... sources/multithreading.i"
+	@echo "... sources/multithreading.s"
+	@echo "... sources/utils.o"
+	@echo "... sources/utils.i"
+	@echo "... sources/utils.s"
 .PHONY : help
 
 

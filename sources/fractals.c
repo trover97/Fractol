@@ -10,17 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "fractol.h"
 
 void	burning_ship(int x, int y, t_base *fract)
 {
 	t_complex z;
 
-	z = init_complex(fract->c.re,fract->c.im);
+	z = init_complex(fract->c.re, fract->c.im);
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
-		   && fract->iter.i < fract->iter.max_i)
+	&& fract->iter.i < fract->iter.max_i)
 	{
 		z = init_complex(
 				z.re * z.re - z.im * z.im + fract->c.re,
@@ -34,10 +33,10 @@ void	mandelbar(int x, int y, t_base *fract)
 {
 	t_complex z;
 
-	z = init_complex(fract->c.re,fract->c.im);
+	z = init_complex(fract->c.re, fract->c.im);
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
-		   && fract->iter.i < fract->iter.max_i)
+	&& fract->iter.i < fract->iter.max_i)
 	{
 		z = init_complex(
 				z.re * z.re - z.im * z.im + fract->c.re,
@@ -51,12 +50,12 @@ void	douady_rabbit(int x, int y, t_base *fract)
 {
 	t_complex z;
 
-	z = init_complex(fract->c.re,fract->c.im);
+	z = init_complex(fract->c.re, fract->c.im);
 	fract->c.re = -0.123;
 	fract->c.im = 0.745;
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
-		   && fract->iter.i < fract->iter.max_i)
+	&& fract->iter.i < fract->iter.max_i)
 	{
 		z = init_complex(
 				z.re * z.re - z.im * z.im + fract->c.re,
@@ -70,16 +69,18 @@ void	biomorph(int x, int y, t_base *fract)
 {
 	t_complex z;
 
-	z = init_complex(fract->c.re,fract->c.im);
+	z = init_complex(fract->c.re, fract->c.im);
 	fract->c.re = -0.123;
 	fract->c.im = 0.745;
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
-		   && fract->iter.i < fract->iter.max_i)
+	&& fract->iter.i < fract->iter.max_i)
 	{
 		z = init_complex(
-				z.re * z.re * z.re * z.re + z.im * z.im * z.im * z.im - 6 * z.re * z.re * z.im * z.im + fract->k.re,
-				4.0 * z.re * z.re * z.re * z.im - 4 * z.re * z.im * z.im * z.im + fract->k.im);
+				z.re * z.re * z.re * z.re + z.im * z.im * z.im * z.im
+				- 6 * z.re * z.re * z.im * z.im + fract->k.re,
+				4.0 * z.re * z.re * z.re * z.im
+				- 4 * z.re * z.im * z.im * z.im + fract->k.im);
 		fract->iter.i++;
 	}
 	put_dot(x, y, fract->iter, fract);
@@ -92,7 +93,7 @@ void	burning_julia(int x, int y, t_base *fract)
 	z = init_complex(fract->c.re, fract->c.im);
 	fract->iter.i = 0;
 	while (z.re * z.re + z.im * z.im <= 4
-		   && fract->iter.i < fract->iter.max_i)
+	&& fract->iter.i < fract->iter.max_i)
 	{
 		z = init_complex(
 				z.re * z.re - z.im * z.im + fract->k.re,

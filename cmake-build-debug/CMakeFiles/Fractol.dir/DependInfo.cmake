@@ -4,10 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/wquirrel/Documents/Fractol/complex.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/complex.c.o"
-  "/Users/wquirrel/Documents/Fractol/control.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/control.c.o"
-  "/Users/wquirrel/Documents/Fractol/draw.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/draw.c.o"
-  "/Users/wquirrel/Documents/Fractol/fractals.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/fractals.c.o"
   "/Users/wquirrel/Documents/Fractol/libft/ft_atoi.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_atoi.c.o"
   "/Users/wquirrel/Documents/Fractol/libft/ft_bzero.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_bzero.c.o"
   "/Users/wquirrel/Documents/Fractol/libft/ft_countwords.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_countwords.c.o"
@@ -74,17 +70,22 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/wquirrel/Documents/Fractol/libft/ft_tolower.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_tolower.c.o"
   "/Users/wquirrel/Documents/Fractol/libft/ft_toupper.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_toupper.c.o"
   "/Users/wquirrel/Documents/Fractol/libft/ft_wordlen.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/libft/ft_wordlen.c.o"
-  "/Users/wquirrel/Documents/Fractol/main.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/main.c.o"
-  "/Users/wquirrel/Documents/Fractol/mandel_julia.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/mandel_julia.c.o"
-  "/Users/wquirrel/Documents/Fractol/menu.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/menu.c.o"
-  "/Users/wquirrel/Documents/Fractol/multithreading.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/multithreading.c.o"
-  "/Users/wquirrel/Documents/Fractol/utils.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/utils.c.o"
+  "/Users/wquirrel/Documents/Fractol/sources/complex.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/sources/complex.c.o"
+  "/Users/wquirrel/Documents/Fractol/sources/control.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/sources/control.c.o"
+  "/Users/wquirrel/Documents/Fractol/sources/draw.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/sources/draw.c.o"
+  "/Users/wquirrel/Documents/Fractol/sources/fractals.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/sources/fractals.c.o"
+  "/Users/wquirrel/Documents/Fractol/sources/main.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/sources/main.c.o"
+  "/Users/wquirrel/Documents/Fractol/sources/mandel_julia.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/sources/mandel_julia.c.o"
+  "/Users/wquirrel/Documents/Fractol/sources/menu.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/sources/menu.c.o"
+  "/Users/wquirrel/Documents/Fractol/sources/mouse.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/sources/mouse.c.o"
+  "/Users/wquirrel/Documents/Fractol/sources/multithreading.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/sources/multithreading.c.o"
+  "/Users/wquirrel/Documents/Fractol/sources/utils.c" "/Users/wquirrel/Documents/Fractol/cmake-build-debug/CMakeFiles/Fractol.dir/sources/utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../."
+  "../includes"
   "../libft"
   "../minilibx_macos"
   )

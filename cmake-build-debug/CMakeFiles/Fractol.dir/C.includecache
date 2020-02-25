@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+../includes/fractol.h
+libft.h
+../includes/libft.h
+mlx.h
+../includes/mlx.h
+math.h
+-
+pthread.h
+-
+
 ../libft/libft.h
 unistd.h
 -
@@ -16,19 +26,43 @@ string.h
 
 ../minilibx_macos/mlx.h
 
-/Users/wquirrel/Documents/Fractol/draw.c
+/Users/wquirrel/Documents/Fractol/sources/complex.c
 fractol.h
-/Users/wquirrel/Documents/Fractol/fractol.h
+/Users/wquirrel/Documents/Fractol/sources/fractol.h
 
-/Users/wquirrel/Documents/Fractol/fractol.h
-libft.h
-/Users/wquirrel/Documents/Fractol/libft.h
-mlx.h
-/Users/wquirrel/Documents/Fractol/mlx.h
-math.h
--
-pthread.h
--
-stdio.h
--
+/Users/wquirrel/Documents/Fractol/sources/control.c
+fractol.h
+/Users/wquirrel/Documents/Fractol/sources/fractol.h
+
+/Users/wquirrel/Documents/Fractol/sources/draw.c
+fractol.h
+/Users/wquirrel/Documents/Fractol/sources/fractol.h
+
+/Users/wquirrel/Documents/Fractol/sources/fractals.c
+fractol.h
+/Users/wquirrel/Documents/Fractol/sources/fractol.h
+
+/Users/wquirrel/Documents/Fractol/sources/main.c
+fractol.h
+/Users/wquirrel/Documents/Fractol/sources/fractol.h
+
+/Users/wquirrel/Documents/Fractol/sources/mandel_julia.c
+fractol.h
+/Users/wquirrel/Documents/Fractol/sources/fractol.h
+
+/Users/wquirrel/Documents/Fractol/sources/menu.c
+fractol.h
+/Users/wquirrel/Documents/Fractol/sources/fractol.h
+
+/Users/wquirrel/Documents/Fractol/sources/mouse.c
+fractol.h
+/Users/wquirrel/Documents/Fractol/sources/fractol.h
+
+/Users/wquirrel/Documents/Fractol/sources/multithreading.c
+fractol.h
+/Users/wquirrel/Documents/Fractol/sources/fractol.h
+
+/Users/wquirrel/Documents/Fractol/sources/utils.c
+fractol.h
+/Users/wquirrel/Documents/Fractol/sources/fractol.h
 

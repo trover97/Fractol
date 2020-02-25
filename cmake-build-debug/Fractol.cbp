@@ -44,7 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/wquirrel/Documents/Fractol/."/>
+					<Add directory="/Users/wquirrel/Documents/Fractol/includes"/>
 					<Add directory="/Users/wquirrel/Documents/Fractol/libft"/>
 					<Add directory="/Users/wquirrel/Documents/Fractol/minilibx_macos"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
@@ -69,7 +69,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/wquirrel/Documents/Fractol/."/>
+					<Add directory="/Users/wquirrel/Documents/Fractol/includes"/>
 					<Add directory="/Users/wquirrel/Documents/Fractol/libft"/>
 					<Add directory="/Users/wquirrel/Documents/Fractol/minilibx_macos"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
@@ -88,19 +88,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/wquirrel/Documents/Fractol/complex.c">
-			<Option target="Fractol"/>
-		</Unit>
-		<Unit filename="/Users/wquirrel/Documents/Fractol/control.c">
-			<Option target="Fractol"/>
-		</Unit>
-		<Unit filename="/Users/wquirrel/Documents/Fractol/draw.c">
-			<Option target="Fractol"/>
-		</Unit>
-		<Unit filename="/Users/wquirrel/Documents/Fractol/fractals.c">
-			<Option target="Fractol"/>
-		</Unit>
-		<Unit filename="/Users/wquirrel/Documents/Fractol/fractol.h">
+		<Unit filename="/Users/wquirrel/Documents/Fractol/includes/fractol.h">
 			<Option target="Fractol"/>
 		</Unit>
 		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/ft_atoi.c">
@@ -304,22 +292,37 @@
 		<Unit filename="/Users/wquirrel/Documents/Fractol/libft/libft.h">
 			<Option target="Fractol"/>
 		</Unit>
-		<Unit filename="/Users/wquirrel/Documents/Fractol/main.c">
-			<Option target="Fractol"/>
-		</Unit>
-		<Unit filename="/Users/wquirrel/Documents/Fractol/mandel_julia.c">
-			<Option target="Fractol"/>
-		</Unit>
-		<Unit filename="/Users/wquirrel/Documents/Fractol/menu.c">
-			<Option target="Fractol"/>
-		</Unit>
 		<Unit filename="/Users/wquirrel/Documents/Fractol/minilibx_macos/libmlx.a">
 			<Option target="Fractol"/>
 		</Unit>
-		<Unit filename="/Users/wquirrel/Documents/Fractol/multithreading.c">
+		<Unit filename="/Users/wquirrel/Documents/Fractol/sources/complex.c">
 			<Option target="Fractol"/>
 		</Unit>
-		<Unit filename="/Users/wquirrel/Documents/Fractol/utils.c">
+		<Unit filename="/Users/wquirrel/Documents/Fractol/sources/control.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/sources/draw.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/sources/fractals.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/sources/main.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/sources/mandel_julia.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/sources/menu.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/sources/mouse.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/sources/multithreading.c">
+			<Option target="Fractol"/>
+		</Unit>
+		<Unit filename="/Users/wquirrel/Documents/Fractol/sources/utils.c">
 			<Option target="Fractol"/>
 		</Unit>
 		<Unit filename="/Users/wquirrel/Documents/Fractol/CMakeLists.txt">
